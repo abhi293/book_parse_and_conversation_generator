@@ -1,0 +1,45 @@
+{
+  "rubric_id": "project_anxiety_observation_v1",
+  "scale": {
+    "minimum": 1,
+    "maximum": 10
+  },
+  "levels": [
+    {
+      "range": [
+        1,
+        2
+      ],
+      "label": "low"
+    },
+    {
+      "range": [
+        3,
+        4
+      ],
+      "label": "mild"
+    },
+    {
+      "range": [
+        5,
+        6
+      ],
+      "label": "moderate"
+    },
+    {
+      "range": [
+        7,
+        8
+      ],
+      "label": "high"
+    },
+    {
+      "range": [
+        9,
+        10
+      ],
+      "label": "very_high"
+    }
+  ],
+  "note": "Project-defined, not a validated clinical instrument."
+}
