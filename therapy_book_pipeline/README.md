@@ -137,12 +137,22 @@ In `.env`:
 ```text
 OCR_MODE=auto
 OCR_MIN_TEXT_CHARS=80
+PROGRESS_EVERY_PAGES=1
+OCR_RENDER_SCALE=2
+OCR_PAGE_TIMEOUT=300
 OCR_LANGUAGES=eng+chi_sim+chi_tra
 ```
 
 - `auto`: use embedded text when present; OCR pages with fewer than the threshold number of characters.
 - `always`: OCR every PDF page. Useful for image PDFs with a bad hidden OCR text layer.
 - `never`: never OCR; only use embedded text.
+
+Ingestion prints a live line for each page by default, including whether it
+used embedded text or OCR, elapsed time, and a moving ETA. `OCR_RENDER_SCALE=2`
+is the higher-quality default; reduce it to `1.5` for a faster first pass.
+`OCR_PAGE_TIMEOUT=300` ensures that an individual problematic page is reported
+and skipped after five minutes while the remaining book continues. To reduce
+terminal output, use `PROGRESS_EVERY_PAGES=10`.
 
 For a book entirely in Simplified Chinese, `OCR_LANGUAGES=chi_sim`; for Traditional Chinese, `OCR_LANGUAGES=chi_tra`; for mixed Chinese and English, use `eng+chi_sim+chi_tra`. More languages can slow OCR.
 
@@ -183,3 +193,10 @@ Every extracted item should retain `source_refs` so you can trace it back to a s
 **Ollama connection error**: ensure the Ollama service is running and the model is pulled.
 
 **Very large books**: process in batches using `MAX_CHUNKS_PER_RUN`; this starter implementation processes the first N chunks. For resumable large-scale processing, add a persistent per-chunk checkpoint before production use.
+
+**Ingest appears stuck after the PyMuPDF warning**: that warning is unrelated
+to the stall. Scanned PDFs can require OCR on every page, and using
+`eng+chi_sim+chi_tra` at 2× rendering can take minutes per page. Update to the
+latest code and rerun; the terminal will show the active page and ETA. For a
+faster trial set `OCR_RENDER_SCALE=1.5`, or set `OCR_MODE=never` to verify the
+embedded-text path (scanned pages will be omitted in that mode).

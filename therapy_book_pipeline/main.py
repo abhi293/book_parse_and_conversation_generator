@@ -20,10 +20,12 @@ def main():
     out = cfg["output_dir"]
     chunks_file = out / "book_chunks.jsonl"
     if args.command in ("ingest", "all"):
+        print("[pipeline] Starting ingest. Progress is printed for every page; OCR pages can take minutes.", flush=True)
         docs = load_documents(cfg["input_dir"], cfg)
+        print(f"[pipeline] Chunking {len(docs):,} document units...", flush=True)
         chunks = make_chunks(docs, cfg["chunk_chars"], cfg["chunk_overlap"])
         write_jsonl(chunks_file, chunks)
-        print(f"Read {len(docs)} document units; created {len(chunks)} chunks at {chunks_file}")
+        print(f"[pipeline] Read {len(docs):,} document units; created {len(chunks):,} chunks at {chunks_file}", flush=True)
     if args.command in ("extract", "all"):
         if not chunks_file.exists():
             raise SystemExit("book_chunks.jsonl not found. Run: python main.py ingest")

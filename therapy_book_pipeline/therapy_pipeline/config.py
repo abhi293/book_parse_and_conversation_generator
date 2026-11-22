@@ -170,6 +170,12 @@ def get_config():
             )
         ),
 
+        # OCR can be extremely slow on scanned books.  Keep a page-level timeout
+        # and observable progress by default instead of silently waiting hours.
+        "ocr_render_scale": float(os.getenv("OCR_RENDER_SCALE", "2")),
+        "ocr_page_timeout": int(os.getenv("OCR_PAGE_TIMEOUT", "300")),
+        "progress_every_pages": int(os.getenv("PROGRESS_EVERY_PAGES", "1")),
+
         # ==================================================
         # INPUT / OUTPUT DIRECTORIES
         # ==================================================
@@ -296,5 +302,14 @@ def validate_config(cfg: dict):
         raise ValueError(
             "REQUEST_TIMEOUT must be greater than zero."
         )
+
+    if cfg["ocr_render_scale"] <= 0:
+        raise ValueError("OCR_RENDER_SCALE must be greater than zero.")
+
+    if cfg["ocr_page_timeout"] <= 0:
+        raise ValueError("OCR_PAGE_TIMEOUT must be greater than zero.")
+
+    if cfg["progress_every_pages"] <= 0:
+        raise ValueError("PROGRESS_EVERY_PAGES must be greater than zero.")
 
     return True
