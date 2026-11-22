@@ -1,0 +1,317 @@
+[
+  {
+    "strategy_id": "strat_identifying_biased_interpretations_f3002a",
+    "strategy_name": "Identifying Biased Interpretations",
+    "modality": "cbt_beck",
+    "language": "en",
+    "description": "The core of psychological distress, such as depression and anxiety, often lies in systematic biases in how individuals interpret their experiences. This strategy involves helping clients recognize these distorted thought patterns.",
+    "when_to_use": "When a client presents with symptoms of depression, anxiety, or panic, and their narrative reveals consistent negative or distorted interpretations of events.",
+    "how_to_apply": "Guide the client to observe and articulate their interpretations of specific experiences, then help them identify the systematic biases present.",
+    "example_phrasing": "Notice how you're interpreting this situation; do you see a pattern in how you tend to explain things?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_proposing_alternative_more_probable_explanati_f22a53",
+    "strategy_name": "Proposing Alternative, More Probable Explanations",
+    "modality": "cbt_beck",
+    "language": "en",
+    "description": "Once biased interpretations are identified, the therapist collaborates with the client to generate and evaluate alternative, more realistic, or probable explanations for their experiences.",
+    "when_to_use": "Immediately after a client has identified a biased interpretation of an event or situation.",
+    "how_to_apply": "Facilitate brainstorming of different perspectives and evidence-based alternatives to the client's initial biased interpretation.",
+    "example_phrasing": "Considering all the facts, what are some other possible ways to understand what happened?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_training_in_cognitive_techniques_for_symptom__e99012",
+    "strategy_name": "Training in Cognitive Techniques for Symptom Maintenance",
+    "modality": "cbt_beck",
+    "language": "en",
+    "description": "Clients are taught and practice specific cognitive techniques to empower them to independently manage and reduce symptoms, thereby maintaining therapeutic gains over time.",
+    "when_to_use": "After initial symptom reduction has been achieved and the client is ready to learn self-management skills.",
+    "how_to_apply": "Provide instruction and opportunities for the client to practice applying cognitive skills to their thoughts and interpretations.",
+    "example_phrasing": "Let's practice this thought-challenging exercise so you can use it whenever these thoughts arise.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "strategy_id": "strat_behavioral_activation_811941",
+    "strategy_name": "Behavioral Activation",
+    "modality": "cbt_beck",
+    "language": "en",
+    "description": "This strategy involves encouraging clients to engage in activities that are likely to improve their mood, provide a sense of accomplishment, or increase positive reinforcement, especially when they are withdrawn or inactive.",
+    "when_to_use": "When clients exhibit low energy, anhedonia, withdrawal, or reduced engagement in daily life, often associated with depression.",
+    "how_to_apply": "Collaborate with the client to identify and schedule specific, achievable activities, and monitor their impact on mood and functioning.",
+    "example_phrasing": "What is one small, enjoyable activity you could commit to doing this week?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "strategy_id": "cbt_strategy_1",
+    "strategy_name": "인지 왜곡 식별 및 도전",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "우울증 및 불안과 같은 정신병적 증후군의 핵심은 사고 장애이며, 이는 환자가 특정 경험을 해석하는 데 있어 체계적인 편향으로 나타납니다. 치료는 이러한 편향된 해석을 지적하고 더 가능성 있는 대안적 설명을 제시하는 데 중점을 둡니다.",
+    "when_to_use": "환자가 자신의 경험에 대해 체계적으로 편향된 해석을 보이고, 이로 인해 우울증이나 불안과 같은 증상을 겪을 때.",
+    "how_to_apply": "환자의 특정 경험에 대한 해석을 주의 깊게 듣고, 그 안에 내재된 편향된 사고 패턴을 식별합니다. 그런 다음, 이러한 편향된 해석에 도전하고, 환자와 협력하여 더 현실적이고 가능성 있는 대안적 설명을 탐색합니다.",
+    "example_phrasing": "당신이 그 상황을 '완전히 실패했다'고 생각하는 대신, 다른 관점에서 볼 수 있는 방법은 없을까요? 예를 들어, 어떤 부분이 잘 되었거나, 무엇을 배울 수 있었을까요?",
+    "limitations_or_cautions": "텍스트에 명시된 제한 사항은 없지만, '협력적 경험주의' 원칙을 제대로 이해하지 못하고 자동적 사고를 처리하는 경우가 있을 수 있다고 언급됩니다.",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "cbt_strategy_2",
+    "strategy_name": "즉각적인 증상 완화를 위한 '지금 여기' 문제 집중",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "인지 치료는 환자의 현재 문제에 초점을 맞추어 증상을 신속하게 완화하는 것을 목표로 합니다. 이러한 접근 방식은 10~14주 이내에 전반적인 증상 개선을 가져올 수 있습니다.",
+    "when_to_use": "환자가 현재 겪고 있는 고통스러운 증상(예: 우울증, 불안)을 신속하게 완화해야 할 때.",
+    "how_to_apply": "치료 세션에서 환자의 현재 생각, 감정, 행동에 집중하고, 과거의 사건보다는 현재의 문제와 그에 대한 인지적 해석을 탐구합니다. 구체적인 현재 문제에 대한 해결책을 개발하고 인지적 재구성을 적용합니다.",
+    "example_phrasing": "오늘 당신을 가장 힘들게 하는 현재의 문제는 무엇인가요? 그 문제에 대해 지금 어떤 생각을 하고 계신가요?",
+    "limitations_or_cautions": "텍스트에 명시된 제한 사항 없음.",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "strategy_id": "cbt_strategy_3",
+    "strategy_name": "지속적인 개선을 위한 인지 기법 활용",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "인지 기법을 환자에게 훈련시키는 것은 증상 개선 효과를 유지하는 데 도움이 됩니다. 이는 환자가 스스로 자신의 사고 패턴을 인식하고 수정할 수 있도록 역량을 강화하는 과정입니다.",
+    "when_to_use": "초기 증상 완화 후, 환자가 재발을 방지하고 장기적인 정신 건강을 유지할 수 있도록 돕기 위해.",
+    "how_to_apply": "환자에게 자동적 사고, 인지 왜곡, 핵심 신념 등을 식별하는 방법을 가르치고, 이러한 인지를 평가하고 재구성하는 다양한 기법(예: 소크라테스식 질문, 행동 실험)을 연습시킵니다. 숙제를 통해 세션 외부에서도 이러한 기술을 적용하도록 격려합니다.",
+    "example_phrasing": "지난주에 배운 인지 재구성 기법을 사용하여, 당신을 불안하게 만들었던 그 생각에 대해 다시 한번 생각해 볼 수 있을까요?",
+    "limitations_or_cautions": "텍스트에 명시된 제한 사항 없음.",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "strategy_id": "cbt_strategy_4",
+    "strategy_name": "협력적 경험주의와 유도 발견",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "인지 행동 치료의 핵심 원칙 중 하나는 치료사와 환자가 협력하여 환자의 인지적 가설을 검증하는 '협력적 경험주의'입니다. 이는 '유도 발견'과 '소크라테스식 질문'을 통해 환자 스스로 새로운 통찰을 얻도록 돕는 것을 포함합니다.",
+    "when_to_use": "환자가 자신의 생각과 신념을 비판적으로 평가하고, 대안적인 관점을 탐색하며, 치료 과정에 적극적으로 참여하도록 격려할 때.",
+    "how_to_apply": "치료사는 직접적인 조언을 주기보다는 질문을 통해 환자가 자신의 생각의 타당성을 스스로 검토하고, 새로운 정보를 발견하며, 문제 해결책을 찾아내도록 안내합니다. 환자의 경험을 '데이터'로 활용하여 가설을 세우고 검증합니다.",
+    "example_phrasing": "당신이 그렇게 생각하는 근거는 무엇인가요? 그 생각에 반대되는 증거는 혹시 없을까요?",
+    "limitations_or_cautions": "텍스트에서 일부 치료사들이 이 원칙을 제대로 이해하지 못하고 적용할 수 있다고 언급되어, 올바른 이해와 적용이 중요함을 시사합니다.",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "strategy_id": "CBT_STRAT_1",
+    "strategy_name": "Identifisering og respons på dysfunksjonelle kognisjoner",
+    "modality": "cbt_beck",
+    "language": "no",
+    "description": "Kognitiv atferdsterapi (CBT) fokuserer på å identifisere og korrigere tanker og trossystemer som er unøyaktige, unyttige eller forårsaker lidelse, for å oppnå varige emosjonelle og atferdsmessige endringer.",
+    "when_to_use": "Når pasienter opplever emosjonell nød eller atferdsproblemer som er knyttet til negative eller dysfunksjonelle tanker og trossystemer.",
+    "how_to_apply": "Terapeuten veileder pasienten i å gjenkjenne sine automatiske tanker og underliggende antakelser, og deretter utfordre og revidere disse kognisjonene gjennom ulike teknikker.",
+    "example_phrasing": "La oss se nærmere på denne tanken du hadde, og vurdere om den er helt nøyaktig eller hjelpsom.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.15-20:chunk=23b596527b4f"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "strategy_id": "CBT_STRAT_2",
+    "strategy_name": "Virkelighetstesting av depressive tanker",
+    "modality": "cbt_beck",
+    "language": "no",
+    "description": "En hovedmålsetning med CBT for depresjon er å hjelpe pasienter med å undersøke og vurdere nøyaktigheten av deres depressive tanker opp mot virkeligheten.",
+    "when_to_use": "",
+    "how_to_apply": "",
+    "example_phrasing": "",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.15-20:chunk=23b596527b4f"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "strategy_id": "cbt_strategy_1",
+    "strategy_name": "Đánh giá và điều chỉnh suy nghĩ tự động không thích nghi",
+    "modality": "cbt_beck",
+    "language": "vi",
+    "description": "Mô hình nhận thức cho rằng những suy nghĩ không thích nghi (ảnh hưởng đến cảm xúc và hành vi của bệnh nhân) là phổ biến trong tất cả các rối loạn tâm lý. Khi bệnh nhân học cách đánh giá suy nghĩ của mình một cách thực tế và thích nghi hơn, trạng thái cảm xúc và hành vi của họ sẽ được cải thiện.",
+    "when_to_use": "Khi bệnh nhân trải qua những cảm xúc tiêu cực mạnh mẽ hoặc hành vi không mong muốn do những suy nghĩ tiêu cực tự động gây ra.",
+    "how_to_apply": "Giúp bệnh nhân nhận diện các suy nghĩ tự động xuất hiện trong tâm trí, sau đó hướng dẫn họ kiểm tra tính chính xác và mức độ thích nghi của những suy nghĩ này, và cuối cùng giúp họ phát triển những cách nhìn nhận vấn đề thực tế hơn.",
+    "example_phrasing": "Chúng ta hãy xem xét liệu suy nghĩ 'Tôi không làm được gì cả' có hoàn toàn đúng trong mọi tình huống không.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "cbt_strategy_2",
+    "strategy_name": "Điều chỉnh niềm tin cốt lõi sâu sắc",
+    "modality": "cbt_beck",
+    "language": "vi",
+    "description": "Để cải thiện lâu dài cảm xúc và hành vi của bệnh nhân, nhà trị liệu CBT sẽ làm việc ở cấp độ nhận thức sâu hơn, tập trung vào những niềm tin cơ bản nhất của bệnh nhân về bản thân, thế giới và người khác. Việc điều chỉnh những niềm tin không thích nghi tiềm ẩn này có thể tạo ra những thay đổi bền vững hơn.",
+    "when_to_use": "Khi các suy nghĩ tự động tiêu cực có xu hướng lặp đi lặp lại và phản ánh một chủ đề chung về sự tự ti, bất lực hoặc giá trị bản thân thấp, cho thấy có một niềm tin cốt lõi không thích nghi.",
+    "how_to_apply": "Giúp bệnh nhân nhận diện những niềm tin cốt lõi tiềm ẩn (ví dụ: 'Tôi là người vô năng'), sau đó thách thức và điều chỉnh những niềm tin này bằng cách khuyến khích một cái nhìn thực tế hơn về bản thân, thừa nhận cả điểm mạnh và điểm yếu.",
+    "example_phrasing": "Nếu bạn tin rằng 'Tôi là người vô năng', chúng ta có thể tìm kiếm bằng chứng trong cuộc sống của bạn để xem xét niềm tin này có hoàn toàn chính xác không.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_9dcea7",
+    "strategy_name": "비현실적이고 부적응적인 사고 식별, 평가 및 대응",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "환자가 자신의 부정적이고 비현실적인 자동적 사고를 인식하고, 그 타당성을 평가하며, 보다 적응적인 방식으로 대응하도록 돕는 전략입니다.",
+    "when_to_use": "우울증 환자가 자신, 세상, 미래에 대한 부정적인 자동적 사고를 경험할 때.",
+    "how_to_apply": "환자가 자신의 생각을 식별하고, 증거를 찾아 그 생각의 정확성을 평가하며, 더 기능적인 대안적 사고를 형성하도록 안내합니다.",
+    "example_phrasing": "당신이 '나는 실패자야'라고 생각할 때, 이 생각에 대한 증거는 무엇이며, 다른 관점은 없을까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_7dc1c1",
+    "strategy_name": "문제 해결 및 행동 활성화",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "우울증 환자가 문제 해결 능력을 향상시키고, 활동 수준을 높여 무기력감을 줄이고 긍정적인 경험을 증가시키도록 돕는 전략입니다.",
+    "when_to_use": "우울증으로 인해 활동이 저하되고 문제 해결에 어려움을 겪는 환자에게.",
+    "how_to_apply": "환자와 협력하여 구체적인 문제를 식별하고, 해결책을 브레인스토밍하며, 행동 계획을 세우고 실행하도록 돕습니다. 또한, 즐거움이나 성취감을 줄 수 있는 활동을 계획하고 수행하도록 격려합니다.",
+    "example_phrasing": "어떤 작은 활동부터 시작하면 기분이 나아질까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_1a3c4f",
+    "strategy_name": "위험 평가 및 자원 최적화",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "불안 환자가 걱정하는 상황의 실제 위험을 더 잘 평가하고, 내외부 자원을 고려하며, 이러한 자원을 효과적으로 활용하도록 돕는 전략입니다.",
+    "when_to_use": "불안 장애 환자가 특정 상황에 대한 과도한 걱정과 위험 과대평가를 보일 때.",
+    "how_to_apply": "환자와 함께 걱정하는 상황의 실제 위험을 객관적으로 분석하고, 환자가 가진 강점(내부 자원)과 외부 지원(외부 자원)을 식별하여 활용 계획을 세웁니다.",
+    "example_phrasing": "당신이 걱정하는 상황에서 실제로 일어날 수 있는 최악의 시나리오는 무엇이며, 그것을 해결하기 위해 어떤 자원을 사용할 수 있을까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_6c5812",
+    "strategy_name": "회피 감소 및 행동 실험",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "불안 환자가 두려워하는 상황에 점진적으로 노출되어 행동적으로 부정적인 기대를 검증하고 회피 행동을 줄이도록 돕는 전략입니다.",
+    "when_to_use": "불안으로 인해 특정 상황이나 활동을 회피하는 환자에게.",
+    "how_to_apply": "환자와 협력하여 두려워하는 상황에 대한 점진적인 노출 계획을 세우고, 환자가 자신의 부정적인 예측이 실제로 일어나는지 확인하기 위한 행동 실험을 수행하도록 격려합니다.",
+    "example_phrasing": "친구들이 당신과 함께 나가고 싶어 하지 않을 것이라는 생각에 대해, 직접 연락해서 확인해 보는 것은 어떨까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_dc995f",
+    "strategy_name": "인지 모델에 기반한 개별화된 개념화",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "환자의 문제를 현재의 생각, 행동, 그리고 과거의 발달적 사건 및 신념 형성 패턴을 인지적 용어로 설명하고, 이를 환자와 공유하여 치료 전반에 걸쳐 환자가 자신의 경험을 인지 모델로 이해하도록 돕는 핵심 원칙입니다.",
+    "when_to_use": "치료 초기부터 치료 전반에 걸쳐 환자의 문제를 이해하고 치료 계획을 세울 때.",
+    "how_to_apply": "환자의 현재 부정적 자동 사고, 문제 행동, 그리고 이러한 문제의 유발 요인 및 핵심 신념의 발달적 기원을 탐색하여 인지적 개념화를 형성합니다. 이를 환자와 공유하고, 환자가 자신의 감정 및 행동과 관련된 생각을 식별, 평가, 반응하도록 돕습니다.",
+    "example_phrasing": "당신이 '나는 실패자야'라고 생각하고 자신을 고립시키는 행동을 하는 것은, 어릴 적 경험했던 무능력감과 관련이 있을 수 있습니다.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_d20f40",
+    "strategy_name": "견고한 치료 동맹 구축",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "치료자가 따뜻함, 공감, 관심, 무조건적인 긍정적 존중, 그리고 능력을 보여줌으로써 환자와 신뢰롭고 협력적인 관계를 형성하는 원칙입니다.",
+    "when_to_use": "치료 전반에 걸쳐, 특히 환자가 신뢰나 협력에 어려움을 보일 때.",
+    "how_to_apply": "공감적인 진술을 사용하고, 경청하며, 환자의 생각과 감정을 정확하게 요약하고, 환자의 진전을 인정하며, 현실적이고 낙관적인 기대를 제시하고, 매 회기 후 피드백을 요청합니다.",
+    "example_phrasing": "제가 당신의 말씀을 정확히 이해했는지 확인하기 위해, 당신이 느끼는 감정과 생각들을 다시 한번 말씀해 주시겠어요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_524aa9",
+    "strategy_name": "협력과 적극적인 참여 강조",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "치료를 협력적인 과정으로 보고, 환자가 치료 목표 설정, 회기 내용 결정, 숙제 설계 등 치료 과정에 적극적으로 참여하도록 격려하는 원칙입니다.",
+    "when_to_use": "치료 전반에 걸쳐, 특히 환자의 우울감이 감소하고 치료에 더 잘 적응할 때 환자의 주도적인 역할을 늘려갈 때.",
+    "how_to_apply": "치료자와 환자가 함께 회기 내용, 빈도, 숙제를 결정합니다. 초기에는 치료자가 주도하지만, 환자의 상태가 호전됨에 따라 환자가 문제 식별, 왜곡된 사고 식별, 요점 요약, 숙제 설계 등 더 주도적인 역할을 맡도록 격려합니다.",
+    "example_phrasing": "이번 주에 어떤 문제에 대해 이야기하고 싶으신가요? 그리고 다음 회기까지 어떤 숙제를 해보면 좋을까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_39a2e9",
+    "strategy_name": "목표 지향적이고 문제 중심적인 치료",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "치료 초기에 환자의 문제를 명확히 하고 구체적인 목표를 설정하여, 치료 과정이 이러한 목표 달성에 집중되도록 하는 원칙입니다.",
+    "when_to_use": "치료 초기 평가 단계에서부터 치료 전반에 걸쳐.",
+    "how_to_apply": "환자에게 자신의 문제를 나열하고 구체적인 목표를 설정하도록 요청합니다. 예를 들어, 외로움을 느끼는 환자에게는 새로운 친구를 사귀거나 기존 친구들과 더 많은 시간을 보내는 것과 같은 행동적 목표를 설정하도록 돕습니다.",
+    "example_phrasing": "치료를 통해 무엇을 얻고 싶으신가요? 구체적으로 어떤 변화를 원하시나요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_item_822cd4",
+    "strategy_name": "현재에 대한 주요 초점",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "대부분의 환자 치료는 현재의 문제와 고통스러운 상황에 초점을 맞추는 원칙입니다. 과거는 현재의 기능 부전적 사고를 이해하고 교정하는 데 도움이 될 때만 탐색됩니다.",
+    "when_to_use": "치료 전반에 걸쳐, 특히 환자가 현재의 부정적 사고에 갇혀 있거나 과거 탐색에 강한 의지를 보일 때.",
+    "how_to_apply": "치료는 현재 문제에 대한 검토로 시작합니다. 환자가 과거를 탐색하려는 강한 의지를 보이거나, 현재의 기능 부전적 사고에서 벗어나지 못할 때 과거로 주의를 돌립니다. 과거의 신념이 현재의 고집스러운 관념을 교정하는 데 도움이 될 수 있음을 설명합니다.",
+    "example_phrasing": "지금 당신을 가장 힘들게 하는 것은 무엇인가요? 그리고 이 감정과 관련된 생각은 무엇인가요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  }
+]

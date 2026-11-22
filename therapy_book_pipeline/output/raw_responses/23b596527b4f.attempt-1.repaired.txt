@@ -1,0 +1,30 @@
+{
+  "strategies": [
+    {
+      "strategy_id": "CBT_STRAT_1",
+      "strategy_name": "Identifisering og respons på dysfunksjonelle kognisjoner",
+      "modality": "cbt_beck",
+      "language": "no",
+      "description": "Kognitiv atferdsterapi (CBT) fokuserer på å identifisere og korrigere tanker og trossystemer som er unøyaktige, unyttige eller forårsaker lidelse, for å oppnå varige emosjonelle og atferdsmessige endringer.",
+      "when_to_use": "Når pasienter opplever emosjonell nød eller atferdsproblemer som er knyttet til negative eller dysfunksjonelle tanker og trossystemer.",
+      "how_to_apply": "Terapeuten veileder pasienten i å gjenkjenne sine automatiske tanker og underliggende antakelser, og deretter utfordre og revidere disse kognisjonene gjennom ulike teknikker.",
+      "example_phrasing": "La oss se nærmere på denne tanken du hadde, og vurdere om den er helt nøyaktig eller hjelpsom.",
+      "limitations_or_cautions": "",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.15-20:chunk=23b596527b4f"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "strategy_id": "CBT_STRAT_2",
+      "strategy_name": "Virkelighetstesting av depressive tanker",
+      "modality": "cbt_beck",
+      "language": "no",
+      "description": "En hovedmålsetning med CBT for depresjon er å hjelpe pasienter med å undersøke og vurdere nøyaktigheten av deres depressive tanker opp mot virkeligheten."
+      ,
+      "when_to_use": "",
+      "how_to_apply": "",
+      "example_phrasing": ""
+    }
+  ]
+}

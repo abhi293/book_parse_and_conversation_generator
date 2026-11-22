@@ -1,0 +1,193 @@
+[
+  {
+    "seed_id": "seed_persistent_negative_self_interpretation_17254e",
+    "title": "Persistent Negative Self-Interpretation",
+    "situation_summary": "A client struggling with depression consistently interprets personal experiences and interactions in a negative light, often blaming themselves or feeling inadequate.",
+    "presenting_problem": "Depressive symptoms, including low mood, anhedonia, and self-critical thoughts.",
+    "typical_thoughts_or_feelings": [
+      "I'm not good enough",
+      "I always mess things up",
+      "No one truly cares about me"
+    ],
+    "observable_behaviors": [
+      "Social withdrawal",
+      "Reduced participation in activities",
+      "Expressions of hopelessness"
+    ],
+    "initial_anxiety_estimate": 6,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "en",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "is_book_illustration": false,
+    "confidence": 0.8
+  },
+  {
+    "seed_id": "seed_catastrophic_predictions_in_social_situations_087a53",
+    "title": "Catastrophic Predictions in Social Situations",
+    "situation_summary": "A client experiences significant anxiety, particularly in social settings, where they tend to predict the worst possible outcomes and misinterpret neutral cues as negative.",
+    "presenting_problem": "Social anxiety, characterized by intense worry about negative evaluation and catastrophic thinking.",
+    "typical_thoughts_or_feelings": [
+      "Everyone will judge me",
+      "I'm going to embarrass myself",
+      "They think I'm stupid"
+    ],
+    "observable_behaviors": [
+      "Avoidance of social gatherings",
+      "Fidgeting",
+      "Difficulty making eye contact",
+      "Rapid speech or silence"
+    ],
+    "initial_anxiety_estimate": 8,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "en",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "is_book_illustration": false,
+    "confidence": 0.8
+  },
+  {
+    "seed_id": "seed_misinterpretation_of_physical_symptoms_leadin_c3ca49",
+    "title": "Misinterpretation of Physical Symptoms Leading to Panic",
+    "situation_summary": "A client with panic disorder frequently experiences sudden, intense fear triggered by normal bodily sensations (e.g., increased heart rate, shortness of breath), which they misinterpret as signs of a severe medical emergency or impending doom.",
+    "presenting_problem": "Recurrent panic attacks, driven by catastrophic misinterpretations of physiological arousal.",
+    "typical_thoughts_or_feelings": [
+      "I'm having a heart attack",
+      "I can't breathe, I'm going to die",
+      "I'm losing control"
+    ],
+    "observable_behaviors": [
+      "Hyperventilation",
+      "Seeking reassurance",
+      "Avoidance of situations where panic attacks have occurred",
+      "Checking pulse"
+    ],
+    "initial_anxiety_estimate": 9,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "en",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "is_book_illustration": false,
+    "confidence": 0.8
+  },
+  {
+    "seed_id": "cbt_scenario_1",
+    "title": "샐리 - 불안 특성을 동반한 단순 우울증",
+    "situation_summary": "샐리는 복잡하지 않고 단일 에피소드의 우울증을 겪고 있으며, 불안 특성도 함께 나타납니다. 그녀는 인지 행동 치료의 '표준' 치료에 이상적인 환자로 제시됩니다.",
+    "presenting_problem": "우울증과 불안 증상.",
+    "typical_thoughts_or_feelings": [
+      "나는 아무것도 할 수 없어.",
+      "나에게 나쁜 일이 일어날 것 같아.",
+      "무기력함",
+      "슬픔",
+      "걱정"
+    ],
+    "observable_behaviors": [
+      "활동 감소",
+      "사회적 위축",
+      "안절부절못함 또는 과도한 걱정"
+    ],
+    "initial_anxiety_estimate": 6,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "ko",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "is_book_illustration": true,
+    "confidence": 0.9
+  },
+  {
+    "seed_id": "cbt_scenario_1",
+    "title": "Bệnh nhân trầm cảm với suy nghĩ tự động về sự thất bại",
+    "situation_summary": "Một người cảm thấy rất chán nản sau khi một số séc bị trả lại, dẫn đến suy nghĩ tự động rằng 'Tôi không làm được gì cả.'",
+    "presenting_problem": "Trầm cảm, cảm giác vô vọng, tự đánh giá thấp.",
+    "typical_thoughts_or_feelings": [
+      "Tôi không làm được gì cả",
+      "Tôi thật vô dụng",
+      "Cảm thấy buồn bã, chán nản"
+    ],
+    "observable_behaviors": [
+      "Quay trở lại giường",
+      "Rút lui khỏi các hoạt động"
+    ],
+    "initial_anxiety_estimate": 7,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "vi",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  },
+  {
+    "seed_id": "cbt_scenario_2",
+    "title": "Bệnh nhân lo lắng về sự đánh giá của nhà trị liệu",
+    "situation_summary": "Một phụ nữ đang kể chi tiết về trải nghiệm bị bóc lột tình dục và sau đó báo cáo cảm thấy lo lắng, sợ hãi rằng cô ấy sẽ làm phiền nhà trị liệu.",
+    "presenting_problem": "Lo lắng, sợ bị đánh giá tiêu cực, tự ti trong bối cảnh trị liệu.",
+    "typical_thoughts_or_feelings": [
+      "Tôi sợ mình sẽ làm phiền bạn",
+      "Bạn sẽ nghĩ tôi thật tệ",
+      "Cảm thấy lo lắng, sợ hãi"
+    ],
+    "observable_behaviors": [
+      "Có thể ngập ngừng khi nói",
+      "Thay đổi giọng điệu",
+      "Biểu hiện sự khó chịu"
+    ],
+    "initial_anxiety_estimate": 8,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "vi",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  },
+  {
+    "seed_id": "seed_item_c35a47",
+    "title": "대학 신입생 샐리의 우울증과 불안",
+    "situation_summary": "18세 대학 신입생 샐리는 지난 4개월 동안 심한 우울감과 불안감을 겪고 있으며, 이는 일상 활동에 영향을 미치고 있습니다.",
+    "presenting_problem": "DSM-IV-TR 진단 기준에 부합하는 주요 우울 삽화. 외로움, 학업 스트레스, 무능력감.",
+    "typical_thoughts_or_feelings": [
+      "나는 실패자야",
+      "나는 아무것도 제대로 할 수 없어",
+      "나는 결코 행복해질 수 없을 거야",
+      "친구들이 나랑 나가고 싶어 하지 않을 거야",
+      "나는 너무 피곤해서 그들과 함께 나갈 수 없어",
+      "무능력감",
+      "슬픔",
+      "불안"
+    ],
+    "observable_behaviors": [
+      "자신을 고립시킴",
+      "방에서 무의미하게 많은 시간을 보냄",
+      "도움 요청 회피",
+      "친구들과의 외출 계획 회피"
+    ],
+    "initial_anxiety_estimate": 7,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "ko",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "rubric_id": "project_anxiety_observation_v1",
+  "scale": {
+    "minimum": 1,
+    "maximum": 10,
+    "interpretation": "observed/self-reported distress estimate; not a diagnosis or validated clinical instrument"
+  },
+  "levels": [
+    {
+      "range": [
+        1,
+        2
+      ],
+      "label": "low",
+      "description": "Little current distress; able to reflect and engage."
+    },
+    {
+      "range": [
+        3,
+        4
+      ],
+      "label": "mild",
+      "description": "Noticeable worry or tension with generally preserved functioning."
+    },
+    {
+      "range": [
+        5,
+        6
+      ],
+      "label": "moderate",
+      "description": "Distress interferes with concentration or decisions; support and clarification may help."
+    },
+    {
+      "range": [
+        7,
+        8
+      ],
+      "label": "high",
+      "description": "Strong distress, narrowed attention, or marked avoidance; prioritize pacing, validation, and safety assessment where indicated."
+    },
+    {
+      "range": [
+        9,
+        10
+      ],
+      "label": "very_high",
+      "description": "Overwhelming distress or inability to function in the moment; assess immediate safety and urgent support needs rather than assuming routine counselling is sufficient."
+    }
+  ],
+  "scoring_guidance": [
+    "Do not infer a numeric anxiety score from writing style alone.",
+    "Prefer an explicit client self-rating when available.",
+    "Record the evidence and uncertainty behind each score.",
+    "A score is not a diagnosis, risk assessment, or substitute for a qualified clinician.",
+    "Do not force scores to decline; realistic sessions may remain stable or fluctuate."
+  ],
+  "source": "Project-defined operational rubric; not represented as a scale authored or validated by Beck or Rogers."
+}
