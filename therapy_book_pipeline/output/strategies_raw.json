@@ -1,0 +1,396 @@
+[
+  {
+    "strategy_id": "strat_cognitive_restructuring_for_biased_interpreta_981522",
+    "strategy_name": "Cognitive Restructuring for Biased Interpretations",
+    "modality": "cbt_beck",
+    "language": "en",
+    "description": "This strategy addresses the core of thought disorders in conditions like depression and anxiety, which manifest as systematic biases in how patients interpret their experiences.",
+    "when_to_use": "When a patient's symptoms of depression, anxiety, or panic are linked to distorted or biased ways of thinking about their experiences.",
+    "how_to_apply": "The therapist actively points out the patient's biased interpretations and collaboratively helps them generate and evaluate alternative, more probable explanations for their experiences.",
+    "example_phrasing": "Let's explore if there are other ways to understand what happened.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_cognitive_skill_training_for_symptom_maintena_fd2813",
+    "strategy_name": "Cognitive Skill Training for Symptom Maintenance",
+    "modality": "cbt_beck",
+    "language": "en",
+    "description": "This strategy involves teaching patients to independently apply cognitive techniques to sustain the symptom improvements achieved during therapy.",
+    "when_to_use": "After initial symptom reduction, to empower patients with self-management skills and prevent relapse.",
+    "how_to_apply": "The therapist guides patients in practicing and internalizing the cognitive skills learned, encouraging their application in daily life to maintain positive effects.",
+    "example_phrasing": "How can you use this new thinking pattern when you face a similar challenge next week?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "strategy_id": "strat_behavioral_activation_811941",
+    "strategy_name": "Behavioral Activation",
+    "modality": "cbt_beck",
+    "language": "en",
+    "description": "A therapeutic component introduced in the second edition, focusing on increasing engagement in activities.",
+    "when_to_use": "The excerpt does not specify, but generally used to address inactivity, often seen in depression, to improve mood and functioning.",
+    "how_to_apply": "The excerpt does not detail the application, but it implies structured planning and encouragement of specific behaviors.",
+    "example_phrasing": "Let's identify a small, achievable activity you can do today to feel a sense of accomplishment.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "strategy_id": "CBT_S_001",
+    "strategy_name": "Identify, Evaluate, and Respond to Automatic Negative Thoughts",
+    "modality": "cbt_beck",
+    "language": "vi",
+    "description": "A core CBT technique where clients are guided to recognize, assess, and address the rapid, often negative, thoughts that spontaneously arise and influence their emotions and behaviors.",
+    "when_to_use": "When clients experience emotional distress or maladaptive behaviors linked to immediate, unexamined negative thoughts.",
+    "how_to_apply": "The therapist helps the client become aware of these 'automatic thoughts,' then collaboratively examines their accuracy, utility, and potential for alternative interpretations.",
+    "example_phrasing": "Can you recall what thought crossed your mind right before you started feeling overwhelmed?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
+      "beck_cbt_chinese.pdf:pp.24:chunk=6ceda5f2206a",
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_S_002",
+    "strategy_name": "Correcting Underlying Dysfunctional Core Beliefs",
+    "modality": "cbt_beck",
+    "language": "vi",
+    "description": "A deeper therapeutic intervention aimed at modifying fundamental, often long-held, beliefs about oneself, others, or the world that contribute to persistent psychological difficulties.",
+    "when_to_use": "When addressing chronic emotional or behavioral patterns that stem from pervasive negative self-views or distorted assumptions, leading to more lasting change.",
+    "how_to_apply": "The therapist assists the client in uncovering these core beliefs (e.g., 'I am unlovable'), then systematically challenges their validity and helps construct more balanced, realistic, and adaptive belief systems.",
+    "example_phrasing": "It seems like a recurring theme for you is feeling inadequate; let's explore if that belief truly holds up in all situations.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_S_003",
+    "strategy_name": "Realistic and Adaptive Thought Evaluation",
+    "modality": "cbt_beck",
+    "language": "vi",
+    "description": "The process of teaching clients to critically examine their thoughts for accuracy and helpfulness, fostering a more balanced and functional perspective that improves emotional well-being and behavioral responses.",
+    "when_to_use": "Applicable whenever dysfunctional thinking patterns are contributing to emotional distress or maladaptive actions.",
+    "how_to_apply": "Guide clients to consider evidence for and against their thoughts, explore alternative explanations, and assess the practical consequences of holding certain beliefs.",
+    "example_phrasing": "What evidence supports this thought, and what evidence might suggest another possibility?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_individualized_cognitive_conceptualization_57da24",
+    "strategy_name": "Individualized Cognitive Conceptualization",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "Therapists develop an evolving understanding of the client's problems, conceptualizing them in cognitive terms, and sharing this conceptualization with the client to ensure it resonates. This involves identifying current thoughts/behaviors, triggers for initial onset, and key developmental events/patterns of interpretation.",
+    "when_to_use": "Throughout therapy, starting from the initial assessment and continuously refining.",
+    "how_to_apply": "Identify current negative thoughts and problematic behaviors; identify triggers for the problem's onset; hypothesize key developmental events and long-standing patterns of interpretation; share and refine the conceptualization with the client; help the client view their experiences through a cognitive model (e.g., identify, evaluate, and respond to thoughts related to distress).",
+    "example_phrasing": "Let's explore how your current thoughts about yourself might connect to past experiences.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_fostering_a_strong_therapeutic_alliance_200ca6",
+    "strategy_name": "Fostering a Strong Therapeutic Alliance",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "Therapists actively cultivate a positive relationship with the client by demonstrating warmth, empathy, care, unconditional positive regard, and competence. This involves attentive listening, accurate summarization, acknowledging progress, setting realistic optimism, and seeking feedback.",
+    "when_to_use": "Continuously throughout all therapy sessions.",
+    "how_to_apply": "Exhibit warmth, empathy, care, unconditional positive regard, and competence; use empathic statements; listen attentively; accurately summarize client's thoughts and feelings; acknowledge client's progress (big or small); maintain realistic yet optimistic expectations for the future; seek feedback at the end of each session.",
+    "example_phrasing": "I hear how challenging this has been for you, and I'm here to support your progress.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_collaborative_empiricism_e8126d",
+    "strategy_name": "Collaborative Empiricism",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "Therapy is viewed as a collaborative effort where the therapist and client work together to make decisions about session content, frequency, and homework assignments. The therapist initially guides, but gradually encourages the client to take a more active role in identifying problems, distorted thoughts, summarizing key points, and designing homework.",
+    "when_to_use": "From the beginning of therapy, with client participation increasing over time.",
+    "how_to_apply": "Encourage the client to see therapy as a collaboration; jointly decide on session agenda, frequency, and homework; initially, the therapist may lead, but gradually shift responsibility to the client for identifying issues, distorted thoughts, summarizing, and designing homework.",
+    "example_phrasing": "What do you think would be most helpful for us to focus on today?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_goal_oriented_problem_solving_3bb468",
+    "strategy_name": "Goal-Oriented Problem Solving",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "Therapy begins by identifying specific problems and setting concrete, behavioral goals. The therapist helps the client evaluate and respond to thoughts that interfere with achieving these goals, often using evidence-gathering and behavioral experiments.",
+    "when_to_use": "From the first session and throughout the problem-solving process.",
+    "how_to_apply": "Ask clients to list problems and set specific, behavioral goals; help clients evaluate and respond to thoughts that hinder goal attainment (e.g., by seeking evidence for or against the thought); encourage behavioral experiments to test negative expectations.",
+    "example_phrasing": "What specific steps can we take this week to move closer to your goal of connecting with friends?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_present_focused_intervention_f090a6",
+    "strategy_name": "Present-Focused Intervention",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "Therapy primarily addresses current problems and distressing situations, helping clients respond to negative thoughts and improve their daily lives. Past exploration is typically reserved for specific situations: when the client strongly desires it and not doing so would jeopardize the alliance, or when understanding childhood roots of beliefs can help correct persistent dysfunctional thoughts.",
+    "when_to_use": "Primarily in the present, shifting to the past only when necessary for alliance or deeply ingrained beliefs.",
+    "how_to_apply": "Start by examining current problems; help clients respond to negative thoughts and improve current life; explore the past if the client expresses a strong desire (to maintain alliance) or if understanding childhood origins of beliefs helps correct persistent dysfunctional thoughts (e.g., \"It's not surprising you still believe you're incompetent, given your childhood experiences. Can you see why that might be, even if it's not entirely true?\").",
+    "example_phrasing": "Let's focus on what's happening for you right now and how we can address it.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_cognitive_restructuring_4a25ec",
+    "strategy_name": "Cognitive Restructuring",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "Helping clients recognize, assess, and challenge their unhelpful or distorted automatic negative thoughts, especially those related to self, the world, and the future.",
+    "when_to_use": "When clients experience negative automatic thoughts that contribute to distress (e.g., depression, anxiety).",
+    "how_to_apply": "Guide clients to identify their negative thoughts; teach them to evaluate the validity and helpfulness of these thoughts; help them develop more realistic and adaptive responses.",
+    "example_phrasing": "What evidence supports this thought, and what evidence might suggest another perspective?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_behavioral_activation_811941",
+    "strategy_name": "Behavioral Activation",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "A key component of CBT for depression, focusing on helping clients increase their engagement in activities that are rewarding or lead to a sense of accomplishment, thereby counteracting withdrawal and inactivity.",
+    "when_to_use": "For depressed clients who exhibit withdrawal, inactivity, or lack of motivation.",
+    "how_to_apply": "Help clients identify activities that could improve their mood or sense of mastery; encourage them to schedule and engage in these activities; monitor the impact on mood and thoughts.",
+    "example_phrasing": "Let's plan a small activity you can do this week that might bring you a sense of achievement.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_anxiety_specific_cognitive_restructuring_and__9e68a6",
+    "strategy_name": "Anxiety-Specific Cognitive Restructuring and Resource Optimization",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "For anxiety, clients need to better assess the risks of feared situations, consider their internal and external resources, and optimize these resources.",
+    "when_to_use": "For clients experiencing anxiety.",
+    "how_to_apply": "Guide clients to evaluate the actual risks of situations they worry about; help them identify and leverage their personal strengths and external supports; develop strategies to make the most of their available resources.",
+    "example_phrasing": "What are the actual chances of that happening, and what strengths do you have to cope if it did?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "strat_exposure_and_behavioral_experiments_for_anxie_d002db",
+    "strategy_name": "Exposure and Behavioral Experiments for Anxiety",
+    "modality": "cbt_beck",
+    "language": "zh",
+    "description": "Helping anxious clients reduce avoidance and confront feared situations to behaviorally test their negative expectations.",
+    "when_to_use": "For anxious clients who engage in avoidance behaviors due to fear.",
+    "how_to_apply": "Gradually expose clients to feared situations; design behavioral experiments where clients can test their predictions about what will happen when they face these situations.",
+    "example_phrasing": "Let's design a small experiment to see what actually happens when you try that.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_001",
+    "strategy_name": "Identifying and Challenging Biased Interpretations",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "Patients often interpret their experiences with systematic biases; pointing these out and offering more probable alternative explanations can lead to immediate symptom reduction.",
+    "when_to_use": "When patients present with depressive or anxious symptoms rooted in distorted thinking patterns.",
+    "how_to_apply": "Actively identify distorted interpretations, then collaboratively explore and propose alternative, more realistic explanations.",
+    "example_phrasing": "이 상황을 다르게 볼 수 있는 방법이 있을까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_002",
+    "strategy_name": "Training in Cognitive Techniques for Symptom Maintenance",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "Training patients to use cognitive techniques helps maintain the improvements in their symptoms over time.",
+    "when_to_use": "After initial symptom reduction, to ensure long-term well-being and prevent relapse.",
+    "how_to_apply": "Teach patients to apply cognitive skills independently in various situations.",
+    "example_phrasing": "이러한 사고 기술을 스스로 계속 연습할 수 있습니다.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_003",
+    "strategy_name": "Focus on 'Here and Now' Problems",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "Concentrating on current issues to achieve overall symptom improvement within a relatively short timeframe (e.g., 10-14 weeks).",
+    "when_to_use": "For acute symptom reduction in conditions like depression, anxiety, and panic disorder.",
+    "how_to_apply": "Direct therapeutic attention to current thoughts, feelings, and behaviors related to the patient's presenting problems.",
+    "example_phrasing": "지금 당신에게 어떤 일이 일어나고 있으며, 우리가 무엇을 다룰 수 있을까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_004",
+    "strategy_name": "Collaborative Empiricism",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "A core principle where the therapist and patient work together as a team to test the validity of the patient's beliefs and perceptions, treating thoughts as hypotheses.",
+    "when_to_use": "Throughout the entire therapeutic process, especially when addressing automatic thoughts and core beliefs.",
+    "how_to_apply": "Engage the patient in a process of investigation, treating thoughts as hypotheses to be tested through evidence.",
+    "example_phrasing": "그 생각에 대한 증거와 반대 증거를 함께 살펴보겠습니다.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_005",
+    "strategy_name": "Behavioral Activation",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "A technique used to address issues like lack of mastery or pleasure, often involving increasing engagement in activities.",
+    "when_to_use": "When patients report low mood, lack of motivation, or reduced engagement in enjoyable or meaningful activities.",
+    "how_to_apply": "Help patients identify and schedule activities that can increase feelings of accomplishment or pleasure.",
+    "example_phrasing": "이번 주에 성취감을 줄 수 있는 작은 활동 하나를 시도해 볼까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_006",
+    "strategy_name": "Guided Discovery and Socratic Questioning",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "A method of asking questions to help patients explore their own thoughts, beliefs, and assumptions, leading them to new insights rather than being told directly by the therapist.",
+    "when_to_use": "When exploring automatic thoughts, underlying assumptions, or core beliefs; to foster patient insight and self-discovery.",
+    "how_to_apply": "Ask open-ended, probing questions that encourage critical thinking and self-reflection.",
+    "example_phrasing": "그 생각이 당신에게 무엇을 의미하며, 다른 관점으로 볼 방법은 없을까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_007",
+    "strategy_name": "Activating and Utilizing Patient Strengths and Resources",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "Emphasizing and drawing upon the patient's inherent capabilities, resilience, and available support systems.",
+    "when_to_use": "Throughout therapy, especially when patients feel helpless or overwhelmed, to build self-efficacy.",
+    "how_to_apply": "Help patients identify past successes, personal strengths, and external resources, and encourage their application to current problems.",
+    "example_phrasing": "과거에 어려움을 극복하기 위해 어떤 강점을 사용했나요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_008",
+    "strategy_name": "Integrating Homework",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "Assigning tasks or exercises for patients to complete between sessions to practice new skills, gather information, or test beliefs.",
+    "when_to_use": "To reinforce learning, generalize skills to real-life situations, and accelerate therapeutic progress.",
+    "how_to_apply": "Collaboratively design relevant tasks, ensure patient understanding and commitment, and review homework at the start of the next session.",
+    "example_phrasing": "다음 만남까지 그 생각이 언제 나타나는지 관찰해 볼 수 있을까요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_009",
+    "strategy_name": "Identifying Dysfunctional Cognitions and Responding to Them",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "The process of recognizing unhelpful thought patterns and actively developing adaptive responses.",
+    "when_to_use": "As a foundational step in cognitive restructuring.",
+    "how_to_apply": "Teach patients to monitor their thoughts, identify those that are dysfunctional, and then apply cognitive techniques to challenge or reframe them.",
+    "example_phrasing": "그 도움이 되지 않는 생각을 정확히 찾아내고, 더 건설적인 방식으로 생각하는 방법을 알아봅시다.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_010",
+    "strategy_name": "Emphasizing Positive Aspects",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "Focusing on and reinforcing positive experiences, strengths, and progress.",
+    "when_to_use": "To balance the focus on problems, build self-esteem, and foster hope.",
+    "how_to_apply": "Actively inquire about positive events, acknowledge patient efforts and successes, and help patients recognize their own positive qualities.",
+    "example_phrasing": "이번 주에 비록 작더라도 잘 된 일은 무엇이었나요?",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "strategy_id": "CBT_STRAT_011",
+    "strategy_name": "Setting Initial Treatment Goals and Introducing the Treatment Plan",
+    "modality": "cbt_beck",
+    "language": "ko",
+    "description": "Establishing clear, measurable goals at the beginning of therapy and outlining the therapeutic approach.",
+    "when_to_use": "During the initial assessment or first few sessions.",
+    "how_to_apply": "Collaboratively discuss the patient's desired outcomes, translate them into specific goals, and explain how CBT will address them.",
+    "example_phrasing": "우리의 작업에서 무엇을 달성하고 싶으신가요? 그리고 우리가 어떻게 그곳에 도달할 수 있을지 말씀드리겠습니다.",
+    "limitations_or_cautions": "",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+    ],
+    "confidence": 1.0
+  }
+]

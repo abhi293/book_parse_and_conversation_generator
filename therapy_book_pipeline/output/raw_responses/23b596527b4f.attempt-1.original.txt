@@ -1,0 +1,22 @@
+{
+  "strategies": [
+    {
+      "strategy_id": "1",
+      "strategy_name": "Identify Dysfunctional Cognitions and Respond to Them",
+      "modality": "cbt_beck",
+      "language": "no",
+      "description": "A core principle of CBT is to help patients recognize thoughts and beliefs that are unhelpful or inaccurate, and then develop adaptive responses to them.",
+      "when_to_use": "Throughout therapy, especially when addressing presenting problems.",
+      "how_to_apply": "Guide patients to notice their thoughts, evaluate their validity and helpfulness, and consider alternative perspectives or actions.",
+      "example_phrasing": "What thoughts are you having right now that might be making this situation harder?",
+      "source_refs": ["beck_cbt_chinese.pdf:pp.15-20:chunk=23b596527b4f"],
+      "confidence": 1
+    },
+    {
+      "strategy_id": "2",
+      "strategy_name": "Setting the Agenda",
+      "modality": "cbt_beck",
+      "language": "no",
+      "description": "Collaboratively establishing a plan for the session, including topics to discuss and activities to undertake, to ensure focus and efficiency.",
+      "when_to_use": "At the beginning of each therapy session.",
+      "how_to

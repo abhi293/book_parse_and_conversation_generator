@@ -1,0 +1,137 @@
+[
+  {
+    "seed_id": "seed_client_experiencing_distress_from_biased_inte_8fe5f0",
+    "title": "Client Experiencing Distress from Biased Interpretations",
+    "situation_summary": "A client is struggling with emotional distress, such as depression or anxiety, which appears to be driven by a consistent pattern of negatively skewed interpretations of their life events.",
+    "presenting_problem": "Symptoms of depression, anxiety, or panic disorder, rooted in systematic biases in how the client interprets their experiences.",
+    "typical_thoughts_or_feelings": [
+      "Everything always goes wrong for me",
+      "I'm a failure",
+      "This bad event proves my worst fears"
+    ],
+    "observable_behaviors": [
+      "May include withdrawal",
+      "rumination",
+      "avoidance of situations",
+      "physical manifestations of anxiety"
+    ],
+    "initial_anxiety_estimate": 7,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "en",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  },
+  {
+    "seed_id": "CBT_SC_001",
+    "title": "Financial Stress and Self-Worth",
+    "situation_summary": "A client experiences significant distress and self-deprecating thoughts after discovering some checks have bounced.",
+    "presenting_problem": "Acute depressive feelings and a pervasive sense of personal failure.",
+    "typical_thoughts_or_feelings": [
+      "I am a complete failure",
+      "I can't manage anything correctly",
+      "profound sadness"
+    ],
+    "observable_behaviors": [
+      "retreating to bed",
+      "disengagement from daily activities"
+    ],
+    "initial_anxiety_estimate": 8,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "vi",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  },
+  {
+    "seed_id": "CBT_SC_002",
+    "title": "Chronic Self-Underestimation",
+    "situation_summary": "A client consistently undervalues their own capabilities and achievements, rooted in a deep-seated belief of personal inadequacy.",
+    "presenting_problem": "Low self-esteem, difficulty accepting compliments, and a tendency to focus on perceived flaws rather than strengths.",
+    "typical_thoughts_or_feelings": [
+      "I am fundamentally incompetent",
+      "I'm not good enough",
+      "feelings of shame or inadequacy"
+    ],
+    "observable_behaviors": [
+      "hesitation to take on new challenges",
+      "self-critical statements",
+      "downplaying successes"
+    ],
+    "initial_anxiety_estimate": 7,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "vi",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  },
+  {
+    "seed_id": "CBT_SC_003",
+    "title": "Client's Fear of Being a Burden in Therapy",
+    "situation_summary": "A client, after sharing a difficult personal history, expresses anxiety, clarifying that their fear is not of being judged by the therapist, but of being perceived as boring or bothersome.",
+    "presenting_problem": "Performance anxiety within the therapeutic relationship, fear of negatively impacting the therapist's experience.",
+    "typical_thoughts_or_feelings": [
+      "I'm afraid I will bore you",
+      "My story isn't interesting enough",
+      "anxiety",
+      "self-consciousness"
+    ],
+    "observable_behaviors": [
+      "hesitation",
+      "seeking reassurance",
+      "self-monitoring during conversation"
+    ],
+    "initial_anxiety_estimate": 6,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "vi",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.24:chunk=6ceda5f2206a",
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  },
+  {
+    "seed_id": "seed_university_student_with_depression_and_anxiet_6a94c1",
+    "title": "University Student with Depression and Anxiety",
+    "situation_summary": "An 18-year-old single female in her second semester of university, experiencing significant depression and anxiety for four months, impacting daily activities.",
+    "presenting_problem": "Moderate depressive episode (meeting DSM-IV-TR criteria) and anxiety, leading to feelings of loneliness and academic struggles.",
+    "typical_thoughts_or_feelings": [
+      "I am a failure, I do nothing right, I will never be happy.",
+      "My friends don't want to go out with me.",
+      "I'm too tired to go out with them.",
+      "If I achieve highly, I am valuable; if I don't achieve highly, I am a failure."
+    ],
+    "observable_behaviors": [
+      "Isolating herself",
+      "Spending a lot of meaningless time in her room",
+      "Avoiding seeking help"
+    ],
+    "initial_anxiety_estimate": 7,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  }
+]
