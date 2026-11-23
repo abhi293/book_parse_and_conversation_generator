@@ -80,52 +80,43 @@
     "confidence": 0.8
   },
   {
-    "seed_id": "cbt_scenario_1",
-    "title": "샐리 - 불안 특성을 동반한 단순 우울증",
-    "situation_summary": "샐리는 복잡하지 않고 단일 에피소드의 우울증을 겪고 있으며, 불안 특성도 함께 나타납니다. 그녀는 인지 행동 치료의 '표준' 치료에 이상적인 환자로 제시됩니다.",
-    "presenting_problem": "우울증과 불안 증상.",
+    "seed_id": "seed_item_6be073",
+    "title": "支票退回引发的抑郁",
+    "situation_summary": "患者的几张支票被退回，导致其感到非常抑郁。",
+    "presenting_problem": "因支票退回而感到极度抑郁，并伴有“我什么都做不好”的自动思维。",
     "typical_thoughts_or_feelings": [
-      "나는 아무것도 할 수 없어.",
-      "나에게 나쁜 일이 일어날 것 같아.",
-      "무기력함",
-      "슬픔",
-      "걱정"
+      "我什么都做不好。",
+      "伤心"
     ],
     "observable_behaviors": [
-      "활동 감소",
-      "사회적 위축",
-      "안절부절못함 또는 과도한 걱정"
+      "回到床上"
     ],
+    "initial_anxiety_estimate": 7,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  },
+  {
+    "seed_id": "seed_item_2848d5",
+    "title": "持续低估自身能力",
+    "situation_summary": "患者持续低估自己的能力，这可能源于一个“我是无能的”核心信念。",
+    "presenting_problem": "普遍性的自我效能感低下，导致在日常生活中频繁产生负面自我评价。",
+    "typical_thoughts_or_feelings": [
+      "我是无能的。",
+      "我什么也做不好。"
+    ],
+    "observable_behaviors": [],
     "initial_anxiety_estimate": 6,
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "ko",
-    "source_refs": [
-      "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
-    ],
-    "is_book_illustration": true,
-    "confidence": 0.9
-  },
-  {
-    "seed_id": "cbt_scenario_1",
-    "title": "Bệnh nhân trầm cảm với suy nghĩ tự động về sự thất bại",
-    "situation_summary": "Một người cảm thấy rất chán nản sau khi một số séc bị trả lại, dẫn đến suy nghĩ tự động rằng 'Tôi không làm được gì cả.'",
-    "presenting_problem": "Trầm cảm, cảm giác vô vọng, tự đánh giá thấp.",
-    "typical_thoughts_or_feelings": [
-      "Tôi không làm được gì cả",
-      "Tôi thật vô dụng",
-      "Cảm thấy buồn bã, chán nản"
-    ],
-    "observable_behaviors": [
-      "Quay trở lại giường",
-      "Rút lui khỏi các hoạt động"
-    ],
-    "initial_anxiety_estimate": 7,
-    "modality_relevance": [
-      "cbt_beck"
-    ],
-    "language": "vi",
+    "language": "zh",
     "source_refs": [
       "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
     ],
@@ -133,61 +124,79 @@
     "confidence": 1.0
   },
   {
-    "seed_id": "cbt_scenario_2",
-    "title": "Bệnh nhân lo lắng về sự đánh giá của nhà trị liệu",
-    "situation_summary": "Một phụ nữ đang kể chi tiết về trải nghiệm bị bóc lột tình dục và sau đó báo cáo cảm thấy lo lắng, sợ hãi rằng cô ấy sẽ làm phiền nhà trị liệu.",
-    "presenting_problem": "Lo lắng, sợ bị đánh giá tiêu cực, tự ti trong bối cảnh trị liệu.",
+    "seed_id": "seed_item_783e38",
+    "title": "大一女生萨莉的抑郁与焦虑",
+    "situation_summary": "18岁单身大一女生萨莉，在大学第二学期感到特别抑郁和焦虑，已持续四个月，影响到日常活动。她符合DSM-IV-TR中重度抑郁发作的诊断标准。",
+    "presenting_problem": "重度抑郁发作，伴有焦虑，影响日常活动，如孤立自己、长时间呆在房间、回避寻求帮助。",
     "typical_thoughts_or_feelings": [
-      "Tôi sợ mình sẽ làm phiền bạn",
-      "Bạn sẽ nghĩ tôi thật tệ",
-      "Cảm thấy lo lắng, sợ hãi"
+      "我是一个失败者，我什么都做不对，我将永远不会幸福。",
+      "感到孤独。"
     ],
     "observable_behaviors": [
-      "Có thể ngập ngừng khi nói",
-      "Thay đổi giọng điệu",
-      "Biểu hiện sự khó chịu"
-    ],
-    "initial_anxiety_estimate": 8,
-    "modality_relevance": [
-      "cbt_beck"
-    ],
-    "language": "vi",
-    "source_refs": [
-      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
-    ],
-    "is_book_illustration": true,
-    "confidence": 1.0
-  },
-  {
-    "seed_id": "seed_item_c35a47",
-    "title": "대학 신입생 샐리의 우울증과 불안",
-    "situation_summary": "18세 대학 신입생 샐리는 지난 4개월 동안 심한 우울감과 불안감을 겪고 있으며, 이는 일상 활동에 영향을 미치고 있습니다.",
-    "presenting_problem": "DSM-IV-TR 진단 기준에 부합하는 주요 우울 삽화. 외로움, 학업 스트레스, 무능력감.",
-    "typical_thoughts_or_feelings": [
-      "나는 실패자야",
-      "나는 아무것도 제대로 할 수 없어",
-      "나는 결코 행복해질 수 없을 거야",
-      "친구들이 나랑 나가고 싶어 하지 않을 거야",
-      "나는 너무 피곤해서 그들과 함께 나갈 수 없어",
-      "무능력감",
-      "슬픔",
-      "불안"
-    ],
-    "observable_behaviors": [
-      "자신을 고립시킴",
-      "방에서 무의미하게 많은 시간을 보냄",
-      "도움 요청 회피",
-      "친구들과의 외출 계획 회피"
+      "孤立自己",
+      "花费大量无意义的时间呆在房间里",
+      "回避寻求帮助"
     ],
     "initial_anxiety_estimate": 7,
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "ko",
+    "language": "zh",
     "source_refs": [
       "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
     ],
     "is_book_illustration": true,
     "confidence": 1.0
+  },
+  {
+    "seed_id": "seed_item_568b5b",
+    "title": "萨莉因孤独感而回避社交",
+    "situation_summary": "萨莉感到孤独，并希望结交新朋友、多与现有朋友相处，但负性想法阻碍了她采取行动，导致她回避社交。",
+    "presenting_problem": "孤独感和社交回避，具体表现为不愿主动联系朋友或参与社交活动。",
+    "typical_thoughts_or_feelings": [
+      "我的朋友不想跟我一起出去。",
+      "我太累了不想跟他们一起出去。",
+      "感到孤独。"
+    ],
+    "observable_behaviors": [
+      "不主动发起社交计划",
+      "可能拒绝朋友的邀请"
+    ],
+    "initial_anxiety_estimate": 6,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_book_illustration": true,
+    "confidence": 1.0
+  },
+  {
+    "seed_id": "seed_item_b72e57",
+    "title": "萨莉基于成就的自我价值感",
+    "situation_summary": "萨莉从小习得了“如果我取得很高的成就，那么我就有价值；如果我没有取得很高的成就，那么我就是个失败者”的核心信念，这影响了她的自我评价。",
+    "presenting_problem": "自我价值感与成就紧密挂钩，导致对失败的恐惧、自我贬低和潜在的完美主义倾向。",
+    "typical_thoughts_or_feelings": [
+      "我是一个失败者。",
+      "我什么都做不对。",
+      "感到无价值。"
+    ],
+    "observable_behaviors": [
+      "过度努力追求成就",
+      "因害怕失败而回避挑战",
+      "将个人优点归因于幸运，将弱点视为真实写照"
+    ],
+    "initial_anxiety_estimate": 8,
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_book_illustration": false,
+    "confidence": 0.7
   }
 ]

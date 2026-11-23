@@ -1,0 +1,177 @@
+{
+  "strategies": [
+    {
+      "strategy_name": "识别、评估和应对负性自动思维",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "帮助患者识别、评估并应对那些不现实、适应不良的负性自动思维，这些思维通常会导致情绪困扰和功能障碍。",
+      "when_to_use": "当患者报告或表现出“自动的”负性思维，并因此感到痛苦或行为受限时。",
+      "how_to_apply": "引导患者捕捉其负性想法，然后通过提问和证据收集来评估这些想法的真实性和合理性，最终帮助患者形成更平衡、适应性的替代想法。",
+      "example_phrasing": "你刚才说自己是个失败者，我们来一起看看支持这个想法的证据有哪些，有没有其他可能的解释？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "strategy_name": "抑郁症的认知行为干预",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "针对抑郁症患者，聚焦于帮助他们解决问题、激活行为，并识别、评估及应对针对自我、世界和未来的负性思维。",
+      "when_to_use": "治疗抑郁症患者时，特别是当他们表现出问题解决困难、行为退缩和普遍的负性认知时。",
+      "how_to_apply": "与患者合作制定具体的问题解决策略，鼓励他们参与有益的活动以激活行为，并系统地挑战其关于自我、世界和未来的消极核心信念。",
+      "example_phrasing": "我们来制定一个计划，让你每天都能做一些能带来成就感或愉悦感的事情，同时审视你对未来的悲观想法。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "strategy_name": "焦虑症的认知行为干预",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "针对焦虑症患者，帮助他们更好地评估担心情境的风险，考虑并优化其内部和外部资源，并减少回避行为，通过行为实验面对害怕的情境以检验负性预期。",
+      "when_to_use": "治疗焦虑症患者时，特别是当他们过度担忧、资源利用不足和存在回避行为时。",
+      "how_to_apply": "引导患者进行风险评估，识别并增强其应对资源，然后逐步暴露于其害怕的情境中，通过实际体验来修正其灾难性预期。",
+      "example_phrasing": "你担心在公共场合会出丑，我们来评估一下这种可能性有多大，以及你有哪些应对策略。然后，我们可以尝试从小范围的社交活动开始。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "strategy_name": "个体化认知概念化",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "基于对患者问题的不断发展的解释，用认知术语对每个患者进行个体化的概念化。这包括识别当下的想法、行为，找出首次发作的诱因，并假设导致抑郁的关键发展性事件和解释模式。",
+      "when_to_use": "贯穿整个治疗过程，从评估阶段开始，并随着治疗的进展不断完善。",
+      "how_to_apply": "在治疗初期，识别患者当下的负性想法和问题行为；随后，探索其抑郁症首次发作的诱因；最后，假设并探讨其核心信念和解释模式的早期发展和形成。与患者分享并共同完善此概念化。",
+      "example_phrasing": "根据我们今天的谈话，我理解你感到无助是因为你认为自己无法做好任何事情，这可能与你小时候的经历有关，我们来一起看看这个模式。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "strategy_name": "建立良好治疗联盟",
+      "modality": "cross_modality",
+      "language": "zh",
+      "description": "治疗师通过展现热情、共情、关心、无条件积极关注和能力来建立和维护良好的治疗联盟。这包括共情性陈述、专注倾听、准确总结患者想法和感受、指出进步、设定现实乐观的期望，并在每次会谈结束时寻求反馈。",
+      "when_to_use": "贯穿整个治疗过程，尤其是在治疗初期和处理困难情境时。",
+      "how_to_apply": "积极倾听患者，准确反映其感受和想法，表达支持和理解，肯定患者的努力和进步，并定期检查患者对治疗过程的感受和理解，以确保治疗关系稳固。",
+      "example_phrasing": "我听到你现在感到非常沮丧，这听起来确实很艰难。我理解你的感受。你觉得我们今天的讨论对你有什么帮助吗？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "strategy_name": "促进合作与积极参与",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "鼓励患者将治疗视为合作过程，共同决定会谈内容、频率和家庭作业。治疗师最初可能更主动，但随着患者进步，会鼓励患者承担更主动的角色，如决定讨论问题、识别歪曲思维、总结重点和设计家庭作业。",
+      "when_to_use": "贯穿整个治疗过程，随着患者的进步逐渐增加患者的参与度。",
+      "how_to_apply": "与患者共同制定每次会谈的议程，解释治疗的合作性质，并逐步将更多责任转移给患者，鼓励他们主动思考和行动，例如让他们选择讨论的问题或设计家庭作业。",
+      "example_phrasing": "你觉得我们今天应该重点讨论什么问题？你希望这次会谈结束时能达到什么目标？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "strategy_name": "目标导向与问题聚焦",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "治疗以目标为导向，聚焦于解决患者的具体问题。治疗师帮助患者识别问题并设定具体、可衡量的目标，然后评估和应对干扰目标达成的负性想法，并使用行为实验来检验这些想法。",
+      "when_to_use": "贯穿整个治疗过程，从首次会谈开始。",
+      "how_to_apply": "在治疗初期，帮助患者明确其问题和期望达成的具体目标。在后续会谈中，系统地识别阻碍其实现目标的负性想法，并通过寻找证据和行为实验来挑战这些想法，从而促进问题解决。",
+      "example_phrasing": "你希望通过治疗达到什么具体目标？我们如何衡量这些目标的进展？你觉得朋友不想和你出去的证据是什么？我们能不能尝试主动联系他们一次？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "strategy_name": "聚焦当下与选择性回顾过去",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "治疗主要聚焦于当下问题和具体情境，帮助患者应对负性思维并改善生活。只有在两种特定情况下才转向过去：一是患者有强烈探索过去的愿望且不满足会危及治疗联盟；二是患者深陷功能不良思维，了解其童年根基有助于矫正固执观念。",
+      "when_to_use": "主要用于处理当下问题，但在患者强烈要求或功能不良思维根深蒂固时，可选择性地探索过去。",
+      "how_to_apply": "优先处理患者当前的困扰和负性思维。当需要时，可以探索过去事件如何塑造了患者的信念，并帮助患者评估这些信念在过去和现在的准确性，以促进更适应性的认知重构。",
+      "example_phrasing": "我们先来看看你现在最困扰你的事情是什么。如果你觉得有必要，我们也可以探讨一下这些想法是如何形成的，比如你小时候的经历。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "scenario_seeds": [
+    {
+      "title": "大一女生萨莉的抑郁与焦虑",
+      "situation_summary": "18岁单身大一女生萨莉，在大学第二学期感到特别抑郁和焦虑，已持续四个月，影响到日常活动。她符合DSM-IV-TR中重度抑郁发作的诊断标准。",
+      "presenting_problem": "重度抑郁发作，伴有焦虑，影响日常活动，如孤立自己、长时间呆在房间、回避寻求帮助。",
+      "typical_thoughts_or_feelings": [
+        "我是一个失败者，我什么都做不对，我将永远不会幸福。",
+        "感到孤独。"
+      ],
+      "observable_behaviors": [
+        "孤立自己",
+        "花费大量无意义的时间呆在房间里",
+        "回避寻求帮助"
+      ],
+      "initial_anxiety_estimate": 7,
+      "modality_relevance": [
+        "cbt_beck"
+      ],
+      "language": "zh",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "is_book_illustration": true,
+      "confidence": 1.0
+    },
+    {
+      "title": "萨莉因孤独感而回避社交",
+      "situation_summary": "萨莉感到孤独，并希望结交新朋友、多与现有朋友相处，但负性想法阻碍了她采取行动，导致她回避社交。",
+      "presenting_problem": "孤独感和社交回避，具体表现为不愿主动联系朋友或参与社交活动。",
+      "typical_thoughts_or_feelings": [
+        "我的朋友不想跟我一起出去。",
+        "我太累了不想跟他们一起出去。",
+        "感到孤独。"
+      ],
+      "observable_behaviors": [
+        "不主动发起社交计划",
+        "可能拒绝朋友的邀请"
+      ],
+      "initial_anxiety_estimate": 6,
+      "modality_relevance": [
+        "cbt_beck"
+      ],
+      "language": "zh",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+      ],
+      "is_book_illustration": true,
+      "confidence": 1.0
+    },
+    {
+      "title": "萨莉基于成就的自我价值感",
+      "situation_summary": "萨莉从小习得了“如果我取得很高的成就，那么我就有价值；如果我没有取得很高的成就，那么我就是个失败者”的核心信念，这影响了她的自我评价。",
+      "presenting_problem": "自我价值感与成就紧密挂钩，导致对失败的恐惧、自我贬低和潜在的完美主义倾向。",
+      "typical_thoughts_or_feelings": [
+        "我是一个失败者。",
+        "我什么都做不对。",
+        "感到无价值。"
+      ],
+      "observable_behaviors": [
+        "过度努力追求成就",
+        "因害怕失败而回避挑战",
+        "将个人优点归因于幸运，将弱点视为真实写照"
+      ],
+      "initial_anxiety_estimate": 8,
+      "modality_relevance": [
+        "cbt_beck"
+      ],
+      "language": "zh",
+      "source_refs": [
+        "

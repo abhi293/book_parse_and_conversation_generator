@@ -1,139 +1,227 @@
 {
   "strategies": [
     {
-      "strategy_id": "CBT_STRAT_001",
-      "strategy_name": "Identifying and Challenging Biased Interpretations",
+      "strategy_id": "cbt_strategy_1",
+      "strategy_name": "识别并挑战偏差性解释",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "Patients often interpret their experiences with systematic biases; pointing these out and offering more probable alternative explanations can lead to immediate symptom reduction.",
-      "when_to_use": "When patients present with depressive or anxious symptoms rooted in distorted thinking patterns.",
-      "how_to_apply": "Actively identify distorted interpretations, then collaboratively explore and propose alternative, more realistic explanations.",
-      "example_phrasing": "이 상황을 다르게 볼 수 있는 방법이 있을까요?",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "患者在解释特定经历时常存在系统性偏差。通过指出这些偏差性解释并提出更可能、更替代性的解释，可以迅速减轻症状。",
+      "when_to_use": "当患者的抑郁、焦虑等精神病性综合征的核心表现为思维障碍，即对经历存在系统性偏差解释时。",
+      "how_to_apply": "引导患者识别其对事件的偏颇解读，并鼓励他们考虑其他更合理、更符合现实的解释。",
+      "example_phrasing": "你认为这件事情发生的原因是什么？有没有其他可能性？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_002",
-      "strategy_name": "Training in Cognitive Techniques for Symptom Maintenance",
+      "strategy_id": "cbt_strategy_2",
+      "strategy_name": "认知技巧训练",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "Training patients to use cognitive techniques helps maintain the improvements in their symptoms over time.",
-      "when_to_use": "After initial symptom reduction, to ensure long-term well-being and prevent relapse.",
-      "how_to_apply": "Teach patients to apply cognitive skills independently in various situations.",
-      "example_phrasing": "이러한 사고 기술을 스스로 계속 연습할 수 있습니다.",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "训练患者掌握认知技巧，不仅有助于症状的改善，还能帮助维持治疗效果，使患者能够自我管理。",
+      "when_to_use": "在治疗过程中持续进行，以赋能患者，使其能够独立应对未来的挑战和维持改善。",
+      "how_to_apply": "教授患者具体的认知重构、问题解决等技巧，并鼓励他们在日常生活中实践。",
+      "example_phrasing": "我们可以练习这些技巧，帮助你在日常生活中更好地应对。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_003",
-      "strategy_name": "Focus on 'Here and Now' Problems",
+      "strategy_id": "cbt_strategy_3",
+      "strategy_name": "聚焦此时此地的问题",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "Concentrating on current issues to achieve overall symptom improvement within a relatively short timeframe (e.g., 10-14 weeks).",
-      "when_to_use": "For acute symptom reduction in conditions like depression, anxiety, and panic disorder.",
-      "how_to_apply": "Direct therapeutic attention to current thoughts, feelings, and behaviors related to the patient's presenting problems.",
-      "example_phrasing": "지금 당신에게 어떤 일이 일어나고 있으며, 우리가 무엇을 다룰 수 있을까요?",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "认知疗法专注于患者当前的问题，这种聚焦能够快速带来症状的整体改善，通常在10到14周内。",
+      "when_to_use": "在治疗的各个阶段，尤其是在初期，以快速解决患者当前的痛苦和功能障碍。",
+      "how_to_apply": "将治疗讨论引导至患者目前正在经历的困扰和挑战，并制定针对性的干预措施。",
+      "example_phrasing": "我们今天来谈谈你目前最困扰的问题是什么？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_004",
-      "strategy_name": "Collaborative Empiricism",
+      "strategy_id": "cbt_strategy_4",
+      "strategy_name": "合作下的现实检验",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "A core principle where the therapist and patient work together as a team to test the validity of the patient's beliefs and perceptions, treating thoughts as hypotheses.",
-      "when_to_use": "Throughout the entire therapeutic process, especially when addressing automatic thoughts and core beliefs.",
-      "how_to_apply": "Engage the patient in a process of investigation, treating thoughts as hypotheses to be tested through evidence.",
-      "example_phrasing": "그 생각에 대한 증거와 반대 증거를 함께 살펴보겠습니다.",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "治疗师与患者共同合作，像科学家一样检验患者对个人世界的知觉和自动思维的真实性与合理性。",
+      "when_to_use": "在处理患者的自动思维、中间信念和核心信念时，避免治疗师直接告诉患者如何思考。",
+      "how_to_apply": "通过提问和实验，帮助患者收集证据来支持或反驳他们的想法，从而修正功能不良的认知。",
+      "example_phrasing": "我们一起来看看这个想法是不是真的，有没有证据支持它？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_005",
-      "strategy_name": "Behavioral Activation",
+      "strategy_id": "cbt_strategy_5",
+      "strategy_name": "识别功能不良认知并对其做出反应",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "A technique used to address issues like lack of mastery or pleasure, often involving increasing engagement in activities.",
-      "when_to_use": "When patients report low mood, lack of motivation, or reduced engagement in enjoyable or meaningful activities.",
-      "how_to_apply": "Help patients identify and schedule activities that can increase feelings of accomplishment or pleasure.",
-      "example_phrasing": "이번 주에 성취감을 줄 수 있는 작은 활동 하나를 시도해 볼까요?",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "帮助患者识别那些导致痛苦或功能障碍的非适应性思维模式，并学习如何有效地应对它们。",
+      "when_to_use": "当患者表达出负面情绪或行为，且这些情绪或行为可能与特定的思维模式相关时。",
+      "how_to_apply": "引导患者说出他们的自动思维，然后通过苏格拉底式提问等方式，帮助他们评估这些思维的有效性并形成更平衡的观点。",
+      "example_phrasing": "当你感到沮丧时，你脑子里会想些什么？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_006",
-      "strategy_name": "Guided Discovery and Socratic Questioning",
+      "strategy_id": "cbt_strategy_6",
+      "strategy_name": "强调积极方面",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "A method of asking questions to help patients explore their own thoughts, beliefs, and assumptions, leading them to new insights rather than being told directly by the therapist.",
-      "when_to_use": "When exploring automatic thoughts, underlying assumptions, or core beliefs; to foster patient insight and self-discovery.",
-      "how_to_apply": "Ask open-ended, probing questions that encourage critical thinking and self-reflection.",
-      "example_phrasing": "그 생각이 당신에게 무엇을 의미하며, 다른 관점으로 볼 방법은 없을까요?",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "在治疗过程中，除了关注问题和困难，也要积极识别和强调患者的优点、资源以及取得的进步。",
+      "when_to_use": "在任何治疗阶段，尤其是在患者感到气馁或缺乏动力时，以增强其自我效能感和希望。",
+      "how_to_apply": "询问患者的成功经验、个人优势，并肯定他们在治疗中或日常生活中做出的努力和取得的成就。",
+      "example_phrasing": "除了这些困难，你最近有没有什么做得好的地方？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_007",
-      "strategy_name": "Activating and Utilizing Patient Strengths and Resources",
+      "strategy_id": "cbt_strategy_7",
+      "strategy_name": "设定治疗初期目标并介绍治疗计划",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "Emphasizing and drawing upon the patient's inherent capabilities, resilience, and available support systems.",
-      "when_to_use": "Throughout therapy, especially when patients feel helpless or overwhelmed, to build self-efficacy.",
-      "how_to_apply": "Help patients identify past successes, personal strengths, and external resources, and encourage their application to current problems.",
-      "example_phrasing": "과거에 어려움을 극복하기 위해 어떤 강점을 사용했나요?",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "在治疗初期与患者共同设定清晰、可衡量的治疗目标，并向他们解释认知行为疗法的工作原理和治疗步骤。",
+      "when_to_use": "在首次会谈或治疗初期。",
+      "how_to_apply": "与患者讨论他们希望通过治疗实现什么，然后概述CBT将如何帮助他们达成这些目标。",
+      "example_phrasing": "我们一起来设定一些你希望通过治疗达成的具体目标，然后我来介绍一下我们如何实现这些目标。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_008",
-      "strategy_name": "Integrating Homework",
+      "strategy_id": "cbt_strategy_8",
+      "strategy_name": "设计首次认知概念化和治疗计划",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "Assigning tasks or exercises for patients to complete between sessions to practice new skills, gather information, or test beliefs.",
-      "when_to_use": "To reinforce learning, generalize skills to real-life situations, and accelerate therapeutic progress.",
-      "how_to_apply": "Collaboratively design relevant tasks, ensure patient understanding and commitment, and review homework at the start of the next session.",
-      "example_phrasing": "다음 만남까지 그 생각이 언제 나타나는지 관찰해 볼 수 있을까요?",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "根据患者的初步信息，从认知角度对其问题进行概念化，并据此制定个性化的治疗方案。",
+      "when_to_use": "在收集了足够初步信息后，通常在首次会谈或早期会谈中。",
+      "how_to_apply": "将患者的症状、思维、情绪和行为模式整合到认知模型中，并规划相应的干预策略。",
+      "example_phrasing": "根据我们目前了解的情况，我认为你的困扰可能与这些思维模式有关，我们的计划是...",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_009",
-      "strategy_name": "Identifying Dysfunctional Cognitions and Responding to Them",
+      "strategy_id": "cbt_strategy_9",
+      "strategy_name": "设置议程",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "The process of recognizing unhelpful thought patterns and actively developing adaptive responses.",
-      "when_to_use": "As a foundational step in cognitive restructuring.",
-      "how_to_apply": "Teach patients to monitor their thoughts, identify those that are dysfunctional, and then apply cognitive techniques to challenge or reframe them.",
-      "example_phrasing": "그 도움이 되지 않는 생각을 정확히 찾아내고, 더 건설적인 방식으로 생각하는 방법을 알아봅시다.",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "在每次会谈开始时，与患者共同商定本次会谈要讨论的议题和活动，以确保治疗的结构性和效率。",
+      "when_to_use": "每次治疗会谈的开始。",
+      "how_to_apply": "询问患者最想讨论的问题，并提出治疗师认为重要的议题（如家庭作业回顾），然后共同确定优先顺序。",
+      "example_phrasing": "今天你最想讨论什么？我们还可以回顾一下上次的家庭作业。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_010",
-      "strategy_name": "Emphasizing Positive Aspects",
+      "strategy_id": "cbt_strategy_10",
+      "strategy_name": "心境检查",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "Focusing on and reinforcing positive experiences, strengths, and progress.",
-      "when_to_use": "To balance the focus on problems, build self-esteem, and foster hope.",
-      "how_to_apply": "Actively inquire about positive events, acknowledge patient efforts and successes, and help patients recognize their own positive qualities.",
-      "example_phrasing": "이번 주에 비록 작더라도 잘 된 일은 무엇이었나요?",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "在每次会谈开始时，简要评估患者当前的情绪状态，了解他们自上次会谈以来的情绪变化。",
+      "when_to_use": "每次治疗会谈的开始。",
+      "how_to_apply": "直接询问患者的心情，或使用量表（如抑郁/焦虑量表）进行快速评估。",
+      "example_phrasing": "你今天的心情怎么样？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_011",
-      "strategy_name": "Setting Initial Treatment Goals and Introducing the Treatment Plan",
+      "strategy_id": "cbt_strategy_11",
+      "strategy_name": "获取患者的最新信息",
       "modality": "cbt_beck",
-      "language": "ko",
-      "description": "Establishing clear, measurable goals at the beginning of therapy and outlining the therapeutic approach.",
-      "when_to_use": "During the initial assessment or first few sessions.",
-      "how_to_apply": "Collaboratively discuss the patient's desired outcomes, translate them into specific goals, and explain how CBT will address them.",
-      "example_phrasing": "우리의 작업에서 무엇을 달성하고 싶으신가요? 그리고 우리가 어떻게 그곳에 도달할 수 있을지 말씀드리겠습니다.",
-      "source_refs": ["beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"],
+      "language": "zh",
+      "description": "在每次会谈中，了解患者自上次会谈以来的生活状况、遇到的挑战、取得的进展以及任何相关事件。",
+      "when_to_use": "每次治疗会谈的开始，在心境检查之后。",
+      "how_to_apply": "通过开放式问题鼓励患者分享他们过去一周的经历和感受。",
+      "example_phrasing": "上周过得怎么样？有没有发生什么特别的事情？",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
       "confidence": 1
     },
     {
-      "strategy_id": "CBT_STRAT_012",
-      "strategy_name": "Designing Initial Cognitive Conceptualization and Treatment Plan",
+      "strategy_id": "cbt_strategy_12",
+      "strategy_name": "教育患者了解认知模式",
       "modality": "cbt_beck",
-      "language": "ko",
+      "language": "zh",
+      "description": "向患者解释认知行为疗法的基本原理，特别是思想、情感和行为之间的相互关系，帮助他们理解自己的困扰。",
+      "when_to_use": "在治疗初期，为患者提供一个理解自身问题的框架和治疗的理论基础。",
+      "how_to_apply": "使用简单的语言和具体的例子，结合患者自身的经历，解释认知模式如何运作。",
+      "example_phrasing": "我们来看看你的想法是如何影响你的感受和行为的。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
+      "confidence": 1
+    },
+    {
+      "strategy_id": "cbt_strategy_13",
+      "strategy_name": "问题讨论或行为激活",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "根据议程，深入讨论患者的具体问题，或者通过行为激活技术帮助患者增加有益活动，改善情绪。",
+      "when_to_use": "在会谈的核心部分，根据患者的需求和议程安排。",
+      "how_to_apply": "对于问题讨论，引导患者详细描述问题并探索其认知和行为方面；对于行为激活，与患者共同计划并安排具体的活动。",
+      "example_phrasing": "我们来深入探讨一下你提到的这个困难，或者我们可以计划一些能让你感觉好一点的活动。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
+      "confidence": 1
+    },
+    {
+      "strategy_id": "cbt_strategy_14",
+      "strategy_name": "结束会谈的总结和安排家庭作业",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "在会谈结束时，回顾本次会谈的关键内容和达成的共识，并布置家庭作业以巩固学习和实践新技能。",
+      "when_to_use": "每次治疗会谈的最后阶段。",
+      "how_to_apply": "与患者共同总结会谈要点，并根据会谈内容和治疗目标，布置具体的、可操作的家庭作业。",
+      "example_phrasing": "我们今天讨论了这些，你觉得最重要的收获是什么？下次我们见面之前，你可以尝试做一下这个练习。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
+      "confidence": 1
+    },
+    {
+      "strategy_id": "cbt_strategy_15",
+      "strategy_name": "用活动图表评估预测的准确性",
+      "modality": "cbt_beck",
+      "language": "zh",
+      "description": "通过记录患者对活动的预期感受和实际感受，帮助他们检验负面预测的准确性，从而挑战功能不良的认知。",
+      "when_to_use": "当患者因负面预测而回避活动，或报告缺乏愉悦感和掌控感时。",
+      "how_to_apply": "指导患者制作一个图表，记录他们计划的活动、对活动的情绪和愉悦度预测，以及完成活动后的实际感受。",
+      "example_phrasing": "我们可以用一个活动图表来记录你对某项活动的预期感受，以及实际完成后的感受，看看它们是否一致。",
+      "source_refs": [
+        "beck_cbt_chinese.pdf:pp.9-14:chunk=8d08ad78cf63"
+      ],
+      "confidence": 1
+    }
+  ],
+  "scenario_seeds": [
+    {
+      "seed_id": "cbt_seed_1",
+      "title": "非复杂性、单次发作的伴有焦虑特质的抑郁症",
+      "situation_summary": "一位患者经历了一次相对直接的抑郁发作，同时伴有一些焦虑症状，没有复杂的共病或多次发作的历史。",
+      "presenting_problem": "抑郁情绪、兴趣丧失、精力不足，并伴有担忧、紧张等焦虑症状。",
+      "typical_thoughts_or_feelings": [
+        "我什么都做不好。",
+        "未来没有希望。",
+        "我总是很担心。",
+        "我感到非常沮丧和疲惫。"
+      ],
+      "observable_behaviors": [
+        "减少

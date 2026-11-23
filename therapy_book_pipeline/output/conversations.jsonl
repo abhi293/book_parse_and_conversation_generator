@@ -1,0 +1,2 @@
+{"record_id": "case_00000001_en", "language": "English", "modality": "cbt_beck", "sessions": [{}, {}, {}, {}, {}], "source_refs": ["beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"], "is_synthetic": true}
+{"record_id": "case_00000002_zh", "language": "Simplified Chinese", "modality": "cbt_beck", "sessions": [{}, {}, {}, {}, {}], "source_refs": ["beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"], "is_synthetic": true}

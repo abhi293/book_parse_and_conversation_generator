@@ -102,6 +102,10 @@ def get_config():
             "gemini-2.5-flash"
         ).strip(),
 
+        "corpus_retries": int(os.getenv("CORPUS_RETRIES", "5")),
+        "quota_backoff_base": int(os.getenv("QUOTA_BACKOFF_BASE", "15")),
+        "quota_backoff_max": int(os.getenv("QUOTA_BACKOFF_MAX", "300")),
+
         # ==================================================
         # OLLAMA
         # ==================================================

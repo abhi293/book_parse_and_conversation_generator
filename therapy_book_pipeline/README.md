@@ -130,6 +130,20 @@ python main.py all
 
 For a quick test, set `MAX_CHUNKS_PER_RUN=5` in `.env` and run `extract`. Set it back to `0` for all chunks.
 
+## 4A. Generate a scalable bilingual conversation corpus
+
+Install the Gemini SDK with `pip install -r requirements.txt` and set `GEMINI_API_KEY`.
+After extraction/build has produced `scenario_seeds.json`, run:
+
+```bash
+python main.py generate --count 1000 --batch-size 5
+python main.py validate-corpus
+```
+
+The count is a deterministic planned corpus size, not a single API batch. Each record is generated in English or Simplified Chinese, alternating by default, and contains a fictional blueprint, a multi-session conversation, and per-turn inference annotations. Use `--languages English Simplified Chinese` to set the language mix. The three JSONL files are append-only checkpoints; rerunning the same count skips records whose stages already exist and continues incomplete records. Quota failures retry with exponential backoff configured by `CORPUS_RETRIES`, `QUOTA_BACKOFF_BASE`, and `QUOTA_BACKOFF_MAX`. Start with a small count and inspect quality/cost before scaling. Each record uses three Gemini calls, so 1,000 records means roughly 3,000 calls. Source refs trace the high-level seed; generated cases and dialogue are explicitly synthetic and are not book examples.
+
+Outputs: `scenario_blueprints.jsonl`, `conversations.jsonl`, `conversation_annotations.jsonl`. `validate-corpus` checks stage coverage, traceability, multi-session structure, and annotations. Generated text requires expert review before research or training use.
+
 ## 5. OCR settings
 
 In `.env`:

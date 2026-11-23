@@ -15,6 +15,11 @@ def main():
     b.add_argument("--variants-per-seed", type=int, default=3)
     sub.add_parser("validate", help="Validate generated datasets")
     sub.add_parser("all", help="Run ingest, extraction, build, validation")
+    g = sub.add_parser("generate", help="Generate checkpointed bilingual counselling conversations")
+    g.add_argument("--count", type=int, default=100, help="Total records to plan; resume skips completed records")
+    g.add_argument("--batch-size", type=int, default=5)
+    g.add_argument("--languages", nargs="+", default=["English", "Simplified Chinese"])
+    sub.add_parser("validate-corpus", help="Validate generated conversations and annotations")
     args = parser.parse_args()
     cfg = get_config()
     out = cfg["output_dir"]
@@ -36,6 +41,14 @@ def main():
     if args.command in ("validate", "all"):
         ok = validate(out)
         if not ok: raise SystemExit(1)
+    if args.command == "generate":
+        from therapy_pipeline.corpus import generate_corpus
+        if args.count < 1 or args.batch_size < 1:
+            raise SystemExit("--count and --batch-size must be positive")
+        generate_corpus(out, cfg, args.count, args.batch_size, args.languages)
+    if args.command == "validate-corpus":
+        from therapy_pipeline.corpus import validate_corpus
+        if not validate_corpus(out): raise SystemExit(1)
 
 if __name__ == "__main__":
     main()

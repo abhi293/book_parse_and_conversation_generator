@@ -1,23 +1,22 @@
 [
   {
-    "scenario_id": "synthetic_d1c678dc99",
+    "scenario_id": "synthetic_5d6c330ca8",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "seed_client_experiencing_distress_from_biased_inte_8fe5f0",
-    "title": "Client Experiencing Distress from Biased Interpretations — university variation 1",
-    "situation_summary": "A client is struggling with emotional distress, such as depression or anxiety, which appears to be driven by a consistent pattern of negatively skewed interpretations of their life events. A university student facing academic pressure and uncertainty.",
-    "presenting_problem": "Symptoms of depression, anxiety, or panic disorder, rooted in systematic biases in how the client interprets their experiences.",
+    "seed_id": "seed_persistent_negative_self_interpretation_17254e",
+    "title": "Persistent Negative Self-Interpretation — university variation 1",
+    "situation_summary": "A client struggling with depression consistently interprets personal experiences and interactions in a negative light, often blaming themselves or feeling inadequate. A university student facing academic pressure and uncertainty.",
+    "presenting_problem": "Depressive symptoms, including low mood, anhedonia, and self-critical thoughts.",
     "typical_thoughts_or_feelings": [
-      "Everything always goes wrong for me",
-      "I'm a failure",
-      "This bad event proves my worst fears"
+      "I'm not good enough",
+      "I always mess things up",
+      "No one truly cares about me"
     ],
     "observable_behaviors": [
-      "May include withdrawal",
-      "rumination",
-      "avoidance of situations",
-      "physical manifestations of anxiety"
+      "Social withdrawal",
+      "Reduced participation in activities",
+      "Expressions of hopelessness"
     ],
-    "initial_anxiety_estimate": 7,
+    "initial_anxiety_estimate": 6,
     "anxiety_trajectory": "gradual_relief",
     "modality_relevance": [
       "cbt_beck"
@@ -30,24 +29,23 @@
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_544083d1e0",
+    "scenario_id": "synthetic_2c086473b5",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "seed_client_experiencing_distress_from_biased_inte_8fe5f0",
-    "title": "Client Experiencing Distress from Biased Interpretations — workplace variation 2",
-    "situation_summary": "A client is struggling with emotional distress, such as depression or anxiety, which appears to be driven by a consistent pattern of negatively skewed interpretations of their life events. An early-career employee dealing with performance expectations.",
-    "presenting_problem": "Symptoms of depression, anxiety, or panic disorder, rooted in systematic biases in how the client interprets their experiences.",
+    "seed_id": "seed_persistent_negative_self_interpretation_17254e",
+    "title": "Persistent Negative Self-Interpretation — workplace variation 2",
+    "situation_summary": "A client struggling with depression consistently interprets personal experiences and interactions in a negative light, often blaming themselves or feeling inadequate. An early-career employee dealing with performance expectations.",
+    "presenting_problem": "Depressive symptoms, including low mood, anhedonia, and self-critical thoughts.",
     "typical_thoughts_or_feelings": [
-      "Everything always goes wrong for me",
-      "I'm a failure",
-      "This bad event proves my worst fears"
+      "I'm not good enough",
+      "I always mess things up",
+      "No one truly cares about me"
     ],
     "observable_behaviors": [
-      "May include withdrawal",
-      "rumination",
-      "avoidance of situations",
-      "physical manifestations of anxiety"
+      "Social withdrawal",
+      "Reduced participation in activities",
+      "Expressions of hopelessness"
     ],
-    "initial_anxiety_estimate": 7,
+    "initial_anxiety_estimate": 6,
     "anxiety_trajectory": "oscillating",
     "modality_relevance": [
       "cbt_beck"
@@ -60,24 +58,23 @@
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_206424800b",
+    "scenario_id": "synthetic_59cb6b78c7",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "seed_client_experiencing_distress_from_biased_inte_8fe5f0",
-    "title": "Client Experiencing Distress from Biased Interpretations — relationships variation 3",
-    "situation_summary": "A client is struggling with emotional distress, such as depression or anxiety, which appears to be driven by a consistent pattern of negatively skewed interpretations of their life events. A person navigating tension in an important relationship.",
-    "presenting_problem": "Symptoms of depression, anxiety, or panic disorder, rooted in systematic biases in how the client interprets their experiences.",
+    "seed_id": "seed_persistent_negative_self_interpretation_17254e",
+    "title": "Persistent Negative Self-Interpretation — relationships variation 3",
+    "situation_summary": "A client struggling with depression consistently interprets personal experiences and interactions in a negative light, often blaming themselves or feeling inadequate. A person navigating tension in an important relationship.",
+    "presenting_problem": "Depressive symptoms, including low mood, anhedonia, and self-critical thoughts.",
     "typical_thoughts_or_feelings": [
-      "Everything always goes wrong for me",
-      "I'm a failure",
-      "This bad event proves my worst fears"
+      "I'm not good enough",
+      "I always mess things up",
+      "No one truly cares about me"
     ],
     "observable_behaviors": [
-      "May include withdrawal",
-      "rumination",
-      "avoidance of situations",
-      "physical manifestations of anxiety"
+      "Social withdrawal",
+      "Reduced participation in activities",
+      "Expressions of hopelessness"
     ],
-    "initial_anxiety_estimate": 7,
+    "initial_anxiety_estimate": 6,
     "anxiety_trajectory": "spike_then_settle",
     "modality_relevance": [
       "cbt_beck"
@@ -90,292 +87,350 @@
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_dbd2aeb532",
+    "scenario_id": "synthetic_9a512516c0",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_001",
-    "title": "Financial Stress and Self-Worth — university variation 1",
-    "situation_summary": "A client experiences significant distress and self-deprecating thoughts after discovering some checks have bounced. A university student facing academic pressure and uncertainty.",
-    "presenting_problem": "Acute depressive feelings and a pervasive sense of personal failure.",
+    "seed_id": "seed_catastrophic_predictions_in_social_situations_087a53",
+    "title": "Catastrophic Predictions in Social Situations — university variation 1",
+    "situation_summary": "A client experiences significant anxiety, particularly in social settings, where they tend to predict the worst possible outcomes and misinterpret neutral cues as negative. A university student facing academic pressure and uncertainty.",
+    "presenting_problem": "Social anxiety, characterized by intense worry about negative evaluation and catastrophic thinking.",
     "typical_thoughts_or_feelings": [
-      "I am a complete failure",
-      "I can't manage anything correctly",
-      "profound sadness"
+      "Everyone will judge me",
+      "I'm going to embarrass myself",
+      "They think I'm stupid"
     ],
     "observable_behaviors": [
-      "retreating to bed",
-      "disengagement from daily activities"
+      "Avoidance of social gatherings",
+      "Fidgeting",
+      "Difficulty making eye contact",
+      "Rapid speech or silence"
     ],
     "initial_anxiety_estimate": 8,
     "anxiety_trajectory": "gradual_relief",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "en",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
-      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_7a2d8a5451",
+    "scenario_id": "synthetic_a8991352e2",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_001",
-    "title": "Financial Stress and Self-Worth — workplace variation 2",
-    "situation_summary": "A client experiences significant distress and self-deprecating thoughts after discovering some checks have bounced. An early-career employee dealing with performance expectations.",
-    "presenting_problem": "Acute depressive feelings and a pervasive sense of personal failure.",
+    "seed_id": "seed_catastrophic_predictions_in_social_situations_087a53",
+    "title": "Catastrophic Predictions in Social Situations — workplace variation 2",
+    "situation_summary": "A client experiences significant anxiety, particularly in social settings, where they tend to predict the worst possible outcomes and misinterpret neutral cues as negative. An early-career employee dealing with performance expectations.",
+    "presenting_problem": "Social anxiety, characterized by intense worry about negative evaluation and catastrophic thinking.",
     "typical_thoughts_or_feelings": [
-      "I am a complete failure",
-      "I can't manage anything correctly",
-      "profound sadness"
+      "Everyone will judge me",
+      "I'm going to embarrass myself",
+      "They think I'm stupid"
     ],
     "observable_behaviors": [
-      "retreating to bed",
-      "disengagement from daily activities"
+      "Avoidance of social gatherings",
+      "Fidgeting",
+      "Difficulty making eye contact",
+      "Rapid speech or silence"
     ],
     "initial_anxiety_estimate": 8,
     "anxiety_trajectory": "oscillating",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "en",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
-      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_64ba0351fa",
+    "scenario_id": "synthetic_5746d23f20",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_001",
-    "title": "Financial Stress and Self-Worth — relationships variation 3",
-    "situation_summary": "A client experiences significant distress and self-deprecating thoughts after discovering some checks have bounced. A person navigating tension in an important relationship.",
-    "presenting_problem": "Acute depressive feelings and a pervasive sense of personal failure.",
+    "seed_id": "seed_catastrophic_predictions_in_social_situations_087a53",
+    "title": "Catastrophic Predictions in Social Situations — relationships variation 3",
+    "situation_summary": "A client experiences significant anxiety, particularly in social settings, where they tend to predict the worst possible outcomes and misinterpret neutral cues as negative. A person navigating tension in an important relationship.",
+    "presenting_problem": "Social anxiety, characterized by intense worry about negative evaluation and catastrophic thinking.",
     "typical_thoughts_or_feelings": [
-      "I am a complete failure",
-      "I can't manage anything correctly",
-      "profound sadness"
+      "Everyone will judge me",
+      "I'm going to embarrass myself",
+      "They think I'm stupid"
     ],
     "observable_behaviors": [
-      "retreating to bed",
-      "disengagement from daily activities"
+      "Avoidance of social gatherings",
+      "Fidgeting",
+      "Difficulty making eye contact",
+      "Rapid speech or silence"
     ],
     "initial_anxiety_estimate": 8,
     "anxiety_trajectory": "spike_then_settle",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "en",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
-      "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_a7da29382a",
+    "scenario_id": "synthetic_6661f1d257",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_002",
-    "title": "Chronic Self-Underestimation — university variation 1",
-    "situation_summary": "A client consistently undervalues their own capabilities and achievements, rooted in a deep-seated belief of personal inadequacy. A university student facing academic pressure and uncertainty.",
-    "presenting_problem": "Low self-esteem, difficulty accepting compliments, and a tendency to focus on perceived flaws rather than strengths.",
+    "seed_id": "seed_misinterpretation_of_physical_symptoms_leadin_c3ca49",
+    "title": "Misinterpretation of Physical Symptoms Leading to Panic — university variation 1",
+    "situation_summary": "A client with panic disorder frequently experiences sudden, intense fear triggered by normal bodily sensations (e.g., increased heart rate, shortness of breath), which they misinterpret as signs of a severe medical emergency or impending doom. A university student facing academic pressure and uncertainty.",
+    "presenting_problem": "Recurrent panic attacks, driven by catastrophic misinterpretations of physiological arousal.",
     "typical_thoughts_or_feelings": [
-      "I am fundamentally incompetent",
-      "I'm not good enough",
-      "feelings of shame or inadequacy"
+      "I'm having a heart attack",
+      "I can't breathe, I'm going to die",
+      "I'm losing control"
     ],
     "observable_behaviors": [
-      "hesitation to take on new challenges",
-      "self-critical statements",
-      "downplaying successes"
+      "Hyperventilation",
+      "Seeking reassurance",
+      "Avoidance of situations where panic attacks have occurred",
+      "Checking pulse"
+    ],
+    "initial_anxiety_estimate": 9,
+    "anxiety_trajectory": "gradual_relief",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "en",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_ab1f9884a8",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_misinterpretation_of_physical_symptoms_leadin_c3ca49",
+    "title": "Misinterpretation of Physical Symptoms Leading to Panic — workplace variation 2",
+    "situation_summary": "A client with panic disorder frequently experiences sudden, intense fear triggered by normal bodily sensations (e.g., increased heart rate, shortness of breath), which they misinterpret as signs of a severe medical emergency or impending doom. An early-career employee dealing with performance expectations.",
+    "presenting_problem": "Recurrent panic attacks, driven by catastrophic misinterpretations of physiological arousal.",
+    "typical_thoughts_or_feelings": [
+      "I'm having a heart attack",
+      "I can't breathe, I'm going to die",
+      "I'm losing control"
+    ],
+    "observable_behaviors": [
+      "Hyperventilation",
+      "Seeking reassurance",
+      "Avoidance of situations where panic attacks have occurred",
+      "Checking pulse"
+    ],
+    "initial_anxiety_estimate": 9,
+    "anxiety_trajectory": "oscillating",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "en",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_8cc79389f8",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_misinterpretation_of_physical_symptoms_leadin_c3ca49",
+    "title": "Misinterpretation of Physical Symptoms Leading to Panic — relationships variation 3",
+    "situation_summary": "A client with panic disorder frequently experiences sudden, intense fear triggered by normal bodily sensations (e.g., increased heart rate, shortness of breath), which they misinterpret as signs of a severe medical emergency or impending doom. A person navigating tension in an important relationship.",
+    "presenting_problem": "Recurrent panic attacks, driven by catastrophic misinterpretations of physiological arousal.",
+    "typical_thoughts_or_feelings": [
+      "I'm having a heart attack",
+      "I can't breathe, I'm going to die",
+      "I'm losing control"
+    ],
+    "observable_behaviors": [
+      "Hyperventilation",
+      "Seeking reassurance",
+      "Avoidance of situations where panic attacks have occurred",
+      "Checking pulse"
+    ],
+    "initial_anxiety_estimate": 9,
+    "anxiety_trajectory": "spike_then_settle",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "en",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.1-8:chunk=11fe787b8b8a"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_9c2ade04d3",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_item_6be073",
+    "title": "支票退回引发的抑郁 — university variation 1",
+    "situation_summary": "患者的几张支票被退回，导致其感到非常抑郁。 A university student facing academic pressure and uncertainty.",
+    "presenting_problem": "因支票退回而感到极度抑郁，并伴有“我什么都做不好”的自动思维。",
+    "typical_thoughts_or_feelings": [
+      "我什么都做不好。",
+      "伤心"
+    ],
+    "observable_behaviors": [
+      "回到床上"
     ],
     "initial_anxiety_estimate": 7,
     "anxiety_trajectory": "gradual_relief",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "zh",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
       "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_c53abc8ac2",
+    "scenario_id": "synthetic_7c9e442d9a",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_002",
-    "title": "Chronic Self-Underestimation — workplace variation 2",
-    "situation_summary": "A client consistently undervalues their own capabilities and achievements, rooted in a deep-seated belief of personal inadequacy. An early-career employee dealing with performance expectations.",
-    "presenting_problem": "Low self-esteem, difficulty accepting compliments, and a tendency to focus on perceived flaws rather than strengths.",
+    "seed_id": "seed_item_6be073",
+    "title": "支票退回引发的抑郁 — workplace variation 2",
+    "situation_summary": "患者的几张支票被退回，导致其感到非常抑郁。 An early-career employee dealing with performance expectations.",
+    "presenting_problem": "因支票退回而感到极度抑郁，并伴有“我什么都做不好”的自动思维。",
     "typical_thoughts_or_feelings": [
-      "I am fundamentally incompetent",
-      "I'm not good enough",
-      "feelings of shame or inadequacy"
+      "我什么都做不好。",
+      "伤心"
     ],
     "observable_behaviors": [
-      "hesitation to take on new challenges",
-      "self-critical statements",
-      "downplaying successes"
+      "回到床上"
     ],
     "initial_anxiety_estimate": 7,
     "anxiety_trajectory": "oscillating",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "zh",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
       "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_de7b29b935",
+    "scenario_id": "synthetic_011f3f0f60",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_002",
-    "title": "Chronic Self-Underestimation — relationships variation 3",
-    "situation_summary": "A client consistently undervalues their own capabilities and achievements, rooted in a deep-seated belief of personal inadequacy. A person navigating tension in an important relationship.",
-    "presenting_problem": "Low self-esteem, difficulty accepting compliments, and a tendency to focus on perceived flaws rather than strengths.",
+    "seed_id": "seed_item_6be073",
+    "title": "支票退回引发的抑郁 — relationships variation 3",
+    "situation_summary": "患者的几张支票被退回，导致其感到非常抑郁。 A person navigating tension in an important relationship.",
+    "presenting_problem": "因支票退回而感到极度抑郁，并伴有“我什么都做不好”的自动思维。",
     "typical_thoughts_or_feelings": [
-      "I am fundamentally incompetent",
-      "I'm not good enough",
-      "feelings of shame or inadequacy"
+      "我什么都做不好。",
+      "伤心"
     ],
     "observable_behaviors": [
-      "hesitation to take on new challenges",
-      "self-critical statements",
-      "downplaying successes"
+      "回到床上"
     ],
     "initial_anxiety_estimate": 7,
     "anxiety_trajectory": "spike_then_settle",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "zh",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.22:chunk=6ceda5f2206a",
       "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_602c028111",
+    "scenario_id": "synthetic_7a1950053e",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_003",
-    "title": "Client's Fear of Being a Burden in Therapy — university variation 1",
-    "situation_summary": "A client, after sharing a difficult personal history, expresses anxiety, clarifying that their fear is not of being judged by the therapist, but of being perceived as boring or bothersome. A university student facing academic pressure and uncertainty.",
-    "presenting_problem": "Performance anxiety within the therapeutic relationship, fear of negatively impacting the therapist's experience.",
+    "seed_id": "seed_item_2848d5",
+    "title": "持续低估自身能力 — university variation 1",
+    "situation_summary": "患者持续低估自己的能力，这可能源于一个“我是无能的”核心信念。 A university student facing academic pressure and uncertainty.",
+    "presenting_problem": "普遍性的自我效能感低下，导致在日常生活中频繁产生负面自我评价。",
     "typical_thoughts_or_feelings": [
-      "I'm afraid I will bore you",
-      "My story isn't interesting enough",
-      "anxiety",
-      "self-consciousness"
+      "我是无能的。",
+      "我什么也做不好。"
     ],
-    "observable_behaviors": [
-      "hesitation",
-      "seeking reassurance",
-      "self-monitoring during conversation"
-    ],
+    "observable_behaviors": [],
     "initial_anxiety_estimate": 6,
     "anxiety_trajectory": "gradual_relief",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "zh",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.24:chunk=6ceda5f2206a",
       "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_8831e1f847",
+    "scenario_id": "synthetic_13a0a88d1c",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_003",
-    "title": "Client's Fear of Being a Burden in Therapy — workplace variation 2",
-    "situation_summary": "A client, after sharing a difficult personal history, expresses anxiety, clarifying that their fear is not of being judged by the therapist, but of being perceived as boring or bothersome. An early-career employee dealing with performance expectations.",
-    "presenting_problem": "Performance anxiety within the therapeutic relationship, fear of negatively impacting the therapist's experience.",
+    "seed_id": "seed_item_2848d5",
+    "title": "持续低估自身能力 — workplace variation 2",
+    "situation_summary": "患者持续低估自己的能力，这可能源于一个“我是无能的”核心信念。 An early-career employee dealing with performance expectations.",
+    "presenting_problem": "普遍性的自我效能感低下，导致在日常生活中频繁产生负面自我评价。",
     "typical_thoughts_or_feelings": [
-      "I'm afraid I will bore you",
-      "My story isn't interesting enough",
-      "anxiety",
-      "self-consciousness"
+      "我是无能的。",
+      "我什么也做不好。"
     ],
-    "observable_behaviors": [
-      "hesitation",
-      "seeking reassurance",
-      "self-monitoring during conversation"
-    ],
+    "observable_behaviors": [],
     "initial_anxiety_estimate": 6,
     "anxiety_trajectory": "oscillating",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "zh",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.24:chunk=6ceda5f2206a",
       "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_bf9a630e01",
+    "scenario_id": "synthetic_e10742065e",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "CBT_SC_003",
-    "title": "Client's Fear of Being a Burden in Therapy — relationships variation 3",
-    "situation_summary": "A client, after sharing a difficult personal history, expresses anxiety, clarifying that their fear is not of being judged by the therapist, but of being perceived as boring or bothersome. A person navigating tension in an important relationship.",
-    "presenting_problem": "Performance anxiety within the therapeutic relationship, fear of negatively impacting the therapist's experience.",
+    "seed_id": "seed_item_2848d5",
+    "title": "持续低估自身能力 — relationships variation 3",
+    "situation_summary": "患者持续低估自己的能力，这可能源于一个“我是无能的”核心信念。 A person navigating tension in an important relationship.",
+    "presenting_problem": "普遍性的自我效能感低下，导致在日常生活中频繁产生负面自我评价。",
     "typical_thoughts_or_feelings": [
-      "I'm afraid I will bore you",
-      "My story isn't interesting enough",
-      "anxiety",
-      "self-consciousness"
+      "我是无能的。",
+      "我什么也做不好。"
     ],
-    "observable_behaviors": [
-      "hesitation",
-      "seeking reassurance",
-      "self-monitoring during conversation"
-    ],
+    "observable_behaviors": [],
     "initial_anxiety_estimate": 6,
     "anxiety_trajectory": "spike_then_settle",
     "modality_relevance": [
       "cbt_beck"
     ],
-    "language": "vi",
+    "language": "zh",
     "source_refs": [
-      "beck_cbt_chinese.pdf:pp.24:chunk=6ceda5f2206a",
       "beck_cbt_chinese.pdf:pp.21-24:chunk=6ceda5f2206a"
     ],
     "is_synthetic": true,
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_592dbe71b2",
+    "scenario_id": "synthetic_d53f77828f",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "seed_university_student_with_depression_and_anxiet_6a94c1",
-    "title": "University Student with Depression and Anxiety — university variation 1",
-    "situation_summary": "An 18-year-old single female in her second semester of university, experiencing significant depression and anxiety for four months, impacting daily activities. A university student facing academic pressure and uncertainty.",
-    "presenting_problem": "Moderate depressive episode (meeting DSM-IV-TR criteria) and anxiety, leading to feelings of loneliness and academic struggles.",
+    "seed_id": "seed_item_783e38",
+    "title": "大一女生萨莉的抑郁与焦虑 — university variation 1",
+    "situation_summary": "18岁单身大一女生萨莉，在大学第二学期感到特别抑郁和焦虑，已持续四个月，影响到日常活动。她符合DSM-IV-TR中重度抑郁发作的诊断标准。 A university student facing academic pressure and uncertainty.",
+    "presenting_problem": "重度抑郁发作，伴有焦虑，影响日常活动，如孤立自己、长时间呆在房间、回避寻求帮助。",
     "typical_thoughts_or_feelings": [
-      "I am a failure, I do nothing right, I will never be happy.",
-      "My friends don't want to go out with me.",
-      "I'm too tired to go out with them.",
-      "If I achieve highly, I am valuable; if I don't achieve highly, I am a failure."
+      "我是一个失败者，我什么都做不对，我将永远不会幸福。",
+      "感到孤独。"
     ],
     "observable_behaviors": [
-      "Isolating herself",
-      "Spending a lot of meaningless time in her room",
-      "Avoiding seeking help"
+      "孤立自己",
+      "花费大量无意义的时间呆在房间里",
+      "回避寻求帮助"
     ],
     "initial_anxiety_estimate": 7,
     "anxiety_trajectory": "gradual_relief",
@@ -390,22 +445,20 @@
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_27981e1efe",
+    "scenario_id": "synthetic_7c795f8bb7",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "seed_university_student_with_depression_and_anxiet_6a94c1",
-    "title": "University Student with Depression and Anxiety — workplace variation 2",
-    "situation_summary": "An 18-year-old single female in her second semester of university, experiencing significant depression and anxiety for four months, impacting daily activities. An early-career employee dealing with performance expectations.",
-    "presenting_problem": "Moderate depressive episode (meeting DSM-IV-TR criteria) and anxiety, leading to feelings of loneliness and academic struggles.",
+    "seed_id": "seed_item_783e38",
+    "title": "大一女生萨莉的抑郁与焦虑 — workplace variation 2",
+    "situation_summary": "18岁单身大一女生萨莉，在大学第二学期感到特别抑郁和焦虑，已持续四个月，影响到日常活动。她符合DSM-IV-TR中重度抑郁发作的诊断标准。 An early-career employee dealing with performance expectations.",
+    "presenting_problem": "重度抑郁发作，伴有焦虑，影响日常活动，如孤立自己、长时间呆在房间、回避寻求帮助。",
     "typical_thoughts_or_feelings": [
-      "I am a failure, I do nothing right, I will never be happy.",
-      "My friends don't want to go out with me.",
-      "I'm too tired to go out with them.",
-      "If I achieve highly, I am valuable; if I don't achieve highly, I am a failure."
+      "我是一个失败者，我什么都做不对，我将永远不会幸福。",
+      "感到孤独。"
     ],
     "observable_behaviors": [
-      "Isolating herself",
-      "Spending a lot of meaningless time in her room",
-      "Avoiding seeking help"
+      "孤立自己",
+      "花费大量无意义的时间呆在房间里",
+      "回避寻求帮助"
     ],
     "initial_anxiety_estimate": 7,
     "anxiety_trajectory": "oscillating",
@@ -420,24 +473,193 @@
     "review_status": "needs_human_review"
   },
   {
-    "scenario_id": "synthetic_7182942c64",
+    "scenario_id": "synthetic_007c9e2839",
     "origin": "synthetic_expansion_from_book_seed",
-    "seed_id": "seed_university_student_with_depression_and_anxiet_6a94c1",
-    "title": "University Student with Depression and Anxiety — relationships variation 3",
-    "situation_summary": "An 18-year-old single female in her second semester of university, experiencing significant depression and anxiety for four months, impacting daily activities. A person navigating tension in an important relationship.",
-    "presenting_problem": "Moderate depressive episode (meeting DSM-IV-TR criteria) and anxiety, leading to feelings of loneliness and academic struggles.",
+    "seed_id": "seed_item_783e38",
+    "title": "大一女生萨莉的抑郁与焦虑 — relationships variation 3",
+    "situation_summary": "18岁单身大一女生萨莉，在大学第二学期感到特别抑郁和焦虑，已持续四个月，影响到日常活动。她符合DSM-IV-TR中重度抑郁发作的诊断标准。 A person navigating tension in an important relationship.",
+    "presenting_problem": "重度抑郁发作，伴有焦虑，影响日常活动，如孤立自己、长时间呆在房间、回避寻求帮助。",
     "typical_thoughts_or_feelings": [
-      "I am a failure, I do nothing right, I will never be happy.",
-      "My friends don't want to go out with me.",
-      "I'm too tired to go out with them.",
-      "If I achieve highly, I am valuable; if I don't achieve highly, I am a failure."
+      "我是一个失败者，我什么都做不对，我将永远不会幸福。",
+      "感到孤独。"
     ],
     "observable_behaviors": [
-      "Isolating herself",
-      "Spending a lot of meaningless time in her room",
-      "Avoiding seeking help"
+      "孤立自己",
+      "花费大量无意义的时间呆在房间里",
+      "回避寻求帮助"
     ],
     "initial_anxiety_estimate": 7,
+    "anxiety_trajectory": "spike_then_settle",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_79cd704ca4",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_item_568b5b",
+    "title": "萨莉因孤独感而回避社交 — university variation 1",
+    "situation_summary": "萨莉感到孤独，并希望结交新朋友、多与现有朋友相处，但负性想法阻碍了她采取行动，导致她回避社交。 A university student facing academic pressure and uncertainty.",
+    "presenting_problem": "孤独感和社交回避，具体表现为不愿主动联系朋友或参与社交活动。",
+    "typical_thoughts_or_feelings": [
+      "我的朋友不想跟我一起出去。",
+      "我太累了不想跟他们一起出去。",
+      "感到孤独。"
+    ],
+    "observable_behaviors": [
+      "不主动发起社交计划",
+      "可能拒绝朋友的邀请"
+    ],
+    "initial_anxiety_estimate": 6,
+    "anxiety_trajectory": "gradual_relief",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_b1ede5ecd0",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_item_568b5b",
+    "title": "萨莉因孤独感而回避社交 — workplace variation 2",
+    "situation_summary": "萨莉感到孤独，并希望结交新朋友、多与现有朋友相处，但负性想法阻碍了她采取行动，导致她回避社交。 An early-career employee dealing with performance expectations.",
+    "presenting_problem": "孤独感和社交回避，具体表现为不愿主动联系朋友或参与社交活动。",
+    "typical_thoughts_or_feelings": [
+      "我的朋友不想跟我一起出去。",
+      "我太累了不想跟他们一起出去。",
+      "感到孤独。"
+    ],
+    "observable_behaviors": [
+      "不主动发起社交计划",
+      "可能拒绝朋友的邀请"
+    ],
+    "initial_anxiety_estimate": 6,
+    "anxiety_trajectory": "oscillating",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_bf49151e2c",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_item_568b5b",
+    "title": "萨莉因孤独感而回避社交 — relationships variation 3",
+    "situation_summary": "萨莉感到孤独，并希望结交新朋友、多与现有朋友相处，但负性想法阻碍了她采取行动，导致她回避社交。 A person navigating tension in an important relationship.",
+    "presenting_problem": "孤独感和社交回避，具体表现为不愿主动联系朋友或参与社交活动。",
+    "typical_thoughts_or_feelings": [
+      "我的朋友不想跟我一起出去。",
+      "我太累了不想跟他们一起出去。",
+      "感到孤独。"
+    ],
+    "observable_behaviors": [
+      "不主动发起社交计划",
+      "可能拒绝朋友的邀请"
+    ],
+    "initial_anxiety_estimate": 6,
+    "anxiety_trajectory": "spike_then_settle",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_1a783af4cf",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_item_b72e57",
+    "title": "萨莉基于成就的自我价值感 — university variation 1",
+    "situation_summary": "萨莉从小习得了“如果我取得很高的成就，那么我就有价值；如果我没有取得很高的成就，那么我就是个失败者”的核心信念，这影响了她的自我评价。 A university student facing academic pressure and uncertainty.",
+    "presenting_problem": "自我价值感与成就紧密挂钩，导致对失败的恐惧、自我贬低和潜在的完美主义倾向。",
+    "typical_thoughts_or_feelings": [
+      "我是一个失败者。",
+      "我什么都做不对。",
+      "感到无价值。"
+    ],
+    "observable_behaviors": [
+      "过度努力追求成就",
+      "因害怕失败而回避挑战",
+      "将个人优点归因于幸运，将弱点视为真实写照"
+    ],
+    "initial_anxiety_estimate": 8,
+    "anxiety_trajectory": "gradual_relief",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_63705104d2",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_item_b72e57",
+    "title": "萨莉基于成就的自我价值感 — workplace variation 2",
+    "situation_summary": "萨莉从小习得了“如果我取得很高的成就，那么我就有价值；如果我没有取得很高的成就，那么我就是个失败者”的核心信念，这影响了她的自我评价。 An early-career employee dealing with performance expectations.",
+    "presenting_problem": "自我价值感与成就紧密挂钩，导致对失败的恐惧、自我贬低和潜在的完美主义倾向。",
+    "typical_thoughts_or_feelings": [
+      "我是一个失败者。",
+      "我什么都做不对。",
+      "感到无价值。"
+    ],
+    "observable_behaviors": [
+      "过度努力追求成就",
+      "因害怕失败而回避挑战",
+      "将个人优点归因于幸运，将弱点视为真实写照"
+    ],
+    "initial_anxiety_estimate": 8,
+    "anxiety_trajectory": "oscillating",
+    "modality_relevance": [
+      "cbt_beck"
+    ],
+    "language": "zh",
+    "source_refs": [
+      "beck_cbt_chinese.pdf:pp.25-28:chunk=2657eb4c158c"
+    ],
+    "is_synthetic": true,
+    "review_status": "needs_human_review"
+  },
+  {
+    "scenario_id": "synthetic_aad1eea534",
+    "origin": "synthetic_expansion_from_book_seed",
+    "seed_id": "seed_item_b72e57",
+    "title": "萨莉基于成就的自我价值感 — relationships variation 3",
+    "situation_summary": "萨莉从小习得了“如果我取得很高的成就，那么我就有价值；如果我没有取得很高的成就，那么我就是个失败者”的核心信念，这影响了她的自我评价。 A person navigating tension in an important relationship.",
+    "presenting_problem": "自我价值感与成就紧密挂钩，导致对失败的恐惧、自我贬低和潜在的完美主义倾向。",
+    "typical_thoughts_or_feelings": [
+      "我是一个失败者。",
+      "我什么都做不对。",
+      "感到无价值。"
+    ],
+    "observable_behaviors": [
+      "过度努力追求成就",
+      "因害怕失败而回避挑战",
+      "将个人优点归因于幸运，将弱点视为真实写照"
+    ],
+    "initial_anxiety_estimate": 8,
     "anxiety_trajectory": "spike_then_settle",
     "modality_relevance": [
       "cbt_beck"
