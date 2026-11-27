@@ -1,8 +1,8 @@
 {
   "created_at": "2026-11-24T09:52:25.589672+00:00",
-  "updated_at": "2026-11-25T16:00:32.418865+00:00",
-  "provider": "ollama",
-  "model": "qwen2.5:7b",
+  "updated_at": "2026-11-26T18:39:43.471754+00:00",
+  "provider": "nvidia",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
   "target_count": 1000,
   "languages": [
     "English",
@@ -11,9 +11,9 @@
   "record_id_pattern": "case_{1-based-index:08d}_{en|zh}",
   "count_semantics": "total target record count, not additional records",
   "completed_stages": {
-    "blueprints": 20,
-    "conversations": 19,
-    "annotation_parts": 97,
-    "annotations": 19
+    "blueprints": 78,
+    "conversations": 78,
+    "annotation_parts": 593,
+    "annotations": 78
   }
 }

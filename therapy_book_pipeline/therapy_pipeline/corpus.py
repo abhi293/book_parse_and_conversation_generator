@@ -564,45 +564,175 @@ def _parse_model_json(raw: str, provider: str, diagnostic: str = "") -> dict:
     raise ModelJSONError(detail, raw)
 
 
-def _call_openai_compatible(prompt: str, cfg: dict, model: str, provider: str) -> tuple[dict, str]:
+# def _call_openai_compatible(prompt: str, cfg: dict, model: str, provider: str) -> tuple[dict, str]:
+#     try:
+#         from openai import OpenAI
+#     except ImportError as exc:
+#         raise RuntimeError("OpenAI SDK missing. Install with: pip install openai") from exc
+#     api_key, base_url = _compatible_credentials(cfg, provider)
+#     timeout = _float_setting(cfg, "request_timeout", "REQUEST_TIMEOUT", 600.0, 1.0)
+#     client = OpenAI(api_key=api_key, base_url=base_url, timeout=timeout, max_retries=0)
+#     max_output = _int_setting(cfg, "max_output_tokens", "MAX_OUTPUT_TOKENS", 8192, 1)
+#     request_args = {
+#         "model": model,
+#         "messages": [
+#             {"role": "system", "content": (
+#                 "Return exactly one valid JSON object. No Markdown fences or commentary. "
+#                 "Follow the schema in the user message."
+#             )},
+#             {"role": "user", "content": prompt},
+#         ],
+#         "max_tokens": max_output,
+#     }
+#     if _bool_setting(cfg, "llm_json_mode", "LLM_JSON_MODE", True):
+#         request_args["response_format"] = {"type": "json_object"}
+#     if _bool_setting(cfg, "llm_send_temperature", "LLM_SEND_TEMPERATURE", True):
+#         request_args["temperature"] = _float_setting(cfg, "temperature", "TEMPERATURE", 0.1)
+#     effort = _setting(cfg, "llm_reasoning_effort", "LLM_REASONING_EFFORT", "")
+#     if effort:
+#         request_args["reasoning_effort"] = str(effort)
+#     response = client.chat.completions.create(**request_args)
+#     choice = response.choices[0]
+#     content = choice.message.content
+#     if isinstance(content, list):
+#         content = "".join(
+#             item.get("text", "") for item in content if isinstance(item, dict)
+#         )
+#     if not content:
+#         raise RuntimeError(f"{provider} returned an empty response")
+#     finish = getattr(choice, "finish_reason", None)
+#     diagnostic = f"finish_reason={finish}" if finish else ""
+#     return _parse_model_json(content, provider, diagnostic), content
+
+
+
+def _call_openai_compatible(
+    prompt: str,
+    cfg: dict,
+    model: str,
+    provider: str
+) -> tuple[dict, str]:
+
     try:
         from openai import OpenAI
     except ImportError as exc:
-        raise RuntimeError("OpenAI SDK missing. Install with: pip install openai") from exc
+        raise RuntimeError(
+            "OpenAI SDK missing. Install with: pip install openai"
+        ) from exc
+
     api_key, base_url = _compatible_credentials(cfg, provider)
-    timeout = _float_setting(cfg, "request_timeout", "REQUEST_TIMEOUT", 600.0, 1.0)
-    client = OpenAI(api_key=api_key, base_url=base_url, timeout=timeout, max_retries=0)
-    max_output = _int_setting(cfg, "max_output_tokens", "MAX_OUTPUT_TOKENS", 8192, 1)
+
+    timeout = _float_setting(
+        cfg, "request_timeout", "REQUEST_TIMEOUT", 600.0, 1.0
+    )
+
+    print(f"[DEBUG] Provider: {provider}")
+    print(f"[DEBUG] Model: {model}")
+    print(f"[DEBUG] Base URL: {base_url}")
+    print(f"[DEBUG] API key configured: {bool(api_key)}")
+
+    client = OpenAI(
+        api_key=api_key,
+        base_url=base_url,
+        timeout=timeout,
+        max_retries=0,
+    )
+
+    max_output = _int_setting(
+        cfg, "max_output_tokens", "MAX_OUTPUT_TOKENS", 16384, 1
+    )
+
     request_args = {
         "model": model,
         "messages": [
-            {"role": "system", "content": (
-                "Return exactly one valid JSON object. No Markdown fences or commentary. "
-                "Follow the schema in the user message."
-            )},
-            {"role": "user", "content": prompt},
+            {
+                "role": "system",
+                "content": (
+                    "Return exactly one valid JSON object. "
+                    "No Markdown fences or commentary. "
+                    "Follow the schema in the user message."
+                )
+            },
+            {
+                "role": "user",
+                "content": prompt
+            },
         ],
         "max_tokens": max_output,
+        "temperature": _float_setting(
+            cfg, "temperature", "TEMPERATURE", 0.1
+        ),
+        "stream": True,
+        "extra_body": {
+            "chat_template_kwargs": {
+                "enable_thinking": True
+            }
+        },
     }
-    if _bool_setting(cfg, "llm_json_mode", "LLM_JSON_MODE", True):
-        request_args["response_format"] = {"type": "json_object"}
-    if _bool_setting(cfg, "llm_send_temperature", "LLM_SEND_TEMPERATURE", True):
-        request_args["temperature"] = _float_setting(cfg, "temperature", "TEMPERATURE", 0.1)
-    effort = _setting(cfg, "llm_reasoning_effort", "LLM_REASONING_EFFORT", "")
-    if effort:
-        request_args["reasoning_effort"] = str(effort)
-    response = client.chat.completions.create(**request_args)
-    choice = response.choices[0]
-    content = choice.message.content
-    if isinstance(content, list):
-        content = "".join(
-            item.get("text", "") for item in content if isinstance(item, dict)
+
+    if _bool_setting(
+        cfg, "llm_json_mode", "LLM_JSON_MODE", True
+    ):
+        request_args["response_format"] = {
+            "type": "json_object"
+        }
+
+    try:
+        print("[DEBUG] Sending streaming NVIDIA request...")
+
+        stream = client.chat.completions.create(**request_args)
+
+        content_parts = []
+        reasoning_parts = []
+
+        for chunk in stream:
+            if not chunk.choices:
+                continue
+
+            delta = chunk.choices[0].delta
+
+            reasoning = getattr(
+                delta, "reasoning_content", None
+            )
+
+            if reasoning:
+                reasoning_parts.append(reasoning)
+
+            if delta.content:
+                content_parts.append(delta.content)
+
+        content = "".join(content_parts)
+
+        if not content.strip():
+            raise RuntimeError(
+                "Provider returned no final content. "
+                f"Reasoning received: {len(reasoning_parts)} chunks."
+            )
+
+        print(
+            f"[DEBUG] Received {len(content)} characters "
+            f"of generated content."
         )
-    if not content:
-        raise RuntimeError(f"{provider} returned an empty response")
-    finish = getattr(choice, "finish_reason", None)
-    diagnostic = f"finish_reason={finish}" if finish else ""
-    return _parse_model_json(content, provider, diagnostic), content
+
+        return _parse_model_json(
+            content,
+            provider,
+            "streaming response"
+        ), content
+
+    except Exception as exc:
+        print(f"[DEBUG] Exception type: {type(exc).__name__}")
+        print(f"[DEBUG] Exception: {exc}")
+
+        cause = exc.__cause__ or exc.__context__
+
+        if cause:
+            print(
+                f"[DEBUG] Underlying exception: "
+                f"{type(cause).__name__}: {cause}"
+            )
+
+        raise
 
 
 def _call_gemini(prompt: str, cfg: dict, model: str, schema: dict) -> tuple[dict, str]:
@@ -637,30 +767,89 @@ def _call_gemini(prompt: str, cfg: dict, model: str, schema: dict) -> tuple[dict
     return _parse_model_json(raw, "gemini", diagnostic), raw
 
 
+# def _call_ollama(prompt: str, cfg: dict, model: str) -> tuple[dict, str]:
+#     try:
+#         import requests
+#     except ImportError as exc:
+#         raise RuntimeError("requests missing. Install with: pip install requests") from exc
+#     url = str(_setting(cfg, "ollama_url", "OLLAMA_URL",
+#                        "http://localhost:11434")).strip().rstrip("/")
+#     response = requests.post(
+#         f"{url}/api/generate",
+#         json={
+#             "model": model, "prompt": prompt, "stream": False, "format": "json",
+#             "options": {
+#                 "temperature": _float_setting(cfg, "temperature", "TEMPERATURE", 0.1),
+#                 "num_predict": _int_setting(cfg, "max_output_tokens", "MAX_OUTPUT_TOKENS", 8192, 1),
+#             },
+#         },
+#         timeout=_float_setting(cfg, "request_timeout", "REQUEST_TIMEOUT", 600.0, 1.0),
+#     )
+#     response.raise_for_status()
+#     payload = response.json()
+#     raw = payload.get("response", "")
+#     if not raw:
+#         raise RuntimeError("Ollama returned an empty response")
+#     diagnostic = f"done={payload.get('done')}; done_reason={payload.get('done_reason')}"
+#     return _parse_model_json(raw, "ollama", diagnostic), raw
+
+
+
 def _call_ollama(prompt: str, cfg: dict, model: str) -> tuple[dict, str]:
     try:
         import requests
     except ImportError as exc:
-        raise RuntimeError("requests missing. Install with: pip install requests") from exc
-    url = str(_setting(cfg, "ollama_url", "OLLAMA_URL",
-                       "http://localhost:11434")).strip().rstrip("/")
+        raise RuntimeError(
+            "requests missing. Install with: pip install requests"
+        ) from exc
+
+    url = str(_setting(
+        cfg, "ollama_url", "OLLAMA_URL",
+        "http://localhost:11434"
+    )).strip().rstrip("/")
+
     response = requests.post(
         f"{url}/api/generate",
         json={
-            "model": model, "prompt": prompt, "stream": False, "format": "json",
+            "model": model,
+            "prompt": prompt,
+            "stream": False,
+            "format": "json",
             "options": {
-                "temperature": _float_setting(cfg, "temperature", "TEMPERATURE", 0.1),
-                "num_predict": _int_setting(cfg, "max_output_tokens", "MAX_OUTPUT_TOKENS", 8192, 1),
+                "temperature": _float_setting(
+                    cfg, "temperature", "TEMPERATURE", 0.1
+                ),
+                "num_predict": _int_setting(
+                    cfg, "max_output_tokens",
+                    "MAX_OUTPUT_TOKENS", 4096, 1
+                ),
+                "num_ctx": 8192,
             },
         },
-        timeout=_float_setting(cfg, "request_timeout", "REQUEST_TIMEOUT", 600.0, 1.0),
+        timeout=_float_setting(
+            cfg, "request_timeout", "REQUEST_TIMEOUT", 600.0, 1.0
+        ),
     )
+
     response.raise_for_status()
     payload = response.json()
     raw = payload.get("response", "")
+
     if not raw:
         raise RuntimeError("Ollama returned an empty response")
-    diagnostic = f"done={payload.get('done')}; done_reason={payload.get('done_reason')}"
+
+    diagnostic = (
+        f"done={payload.get('done')}; "
+        f"done_reason={payload.get('done_reason')}"
+    )
+
+    # Detect truncated output before attempting JSON parsing.
+    if payload.get("done_reason") == "length":
+        raise ModelJSONError(
+            "Ollama reached num_predict limit; response was truncated.",
+            raw,
+        )
+
     return _parse_model_json(raw, "ollama", diagnostic), raw
 
 
